@@ -17,7 +17,9 @@ files and tell the coordinator which one to use for that run.
 
 ## Mode
 
-- **Mode** (`Discovery` or `Validation`): Discovery
+- **Mode** (`Discovery` or `Validation`): Validation (transitioned from
+  Discovery once the beachhead was selected — see "Beachhead — SELECTED"
+  below)
   - **Discovery** — you have no predetermined idea yet. Leave "The idea" and
     "Audience" below blank; fill in "Discovery inputs" instead. The Market
     Signal Researcher will find and evaluate opportunities for you.
@@ -88,18 +90,55 @@ already surfaced real evidence about missed-call/intake pain that may or
 may not resurface as a component within a beachhead vertical here — but
 Simone is not confined to those two verticals for this assignment).
 
+## Beachhead — SELECTED
+
+Simone returned 3 beachhead candidates in
+`outputs/ai-b2b-leverage-v1/02-beachhead-candidates.md` (A: PE-backed home
+service roll-ups, B: elective medical/aesthetic practices, C: mid-market
+e-commerce/DTC brands). **The operator selected Candidate C.** Candidates A
+and B are not carried forward but remain available in that file as
+archived alternatives if this beachhead doesn't pan out.
+
+This selection has been reframed into the standard Validation Mode
+research shape in `outputs/ai-b2b-leverage-v1/01-market-signal-research.md`
+so the pipeline continues identically from here regardless of how the
+opportunity was found. **Mode is effectively Validation from this point
+forward for this run** — see "The idea" and "Audience" below, now filled
+in. The "Discovery inputs" section above is preserved as the historical
+record of how this beachhead was found; it is no longer the active input.
+
 ## The idea (Validation Mode only — leave blank in Discovery Mode)
 
 - **One-sentence description of the idea** (business, content niche, or product):
+  An AI systems & automation implementation company that builds and
+  manages AI-driven customer support and post-purchase lifecycle
+  automation for mid-market ($5M-$50M revenue) DTC e-commerce brands,
+  integrating with their existing Gorgias/Klaviyo/Shopify-type stack
+  rather than replacing it.
 - **Why this idea, why now** (what made you think of it — a trend, a personal
-  experience, a gap you noticed):
+  experience, a gap you noticed): Selected as the strongest of 3 researched
+  beachhead candidates for the company's B2B AI Systems & Automation
+  Implementation category — the clearest evidence of any candidate that
+  buyers already pay implementation-level fees specifically for AI (not
+  just software), via a real, evidenced gap between DIY self-serve tools
+  (Gorgias, Intercom Fin) and enterprise-only contracts (Decagon, ~$50K/yr
+  floor) that leaves this exact revenue tier underserved.
 
 ## Audience (Validation Mode only — leave blank in Discovery Mode)
 
 - **Who do you think this is for** (your best guess — the researcher will
-  test this, it doesn't have to be perfect):
+  test this, it doesn't have to be perfect): Founder/COO, or Head of
+  Customer Experience/Operations, at a DTC e-commerce brand roughly
+  $5M-$50M in annual revenue — big enough that manual/founder-led support
+  has broken down, too small for an enterprise AI contract or a proper
+  in-house automation stack.
 - **What do you already know about their problems** (anecdotes, personal
-  experience, things you've seen people complain about):
+  experience, things you've seen people complain about): See
+  `outputs/ai-b2b-leverage-v1/01-market-signal-research.md` for the full
+  evidence base — summary: rising support cost per ticket as volume
+  scales, no implementation/management layer available between self-serve
+  AI tools and enterprise contracts, and underused cart-abandonment/
+  post-purchase lifecycle automation.
 
 ## Discovery inputs (Discovery Mode only — leave blank in Validation Mode)
 
