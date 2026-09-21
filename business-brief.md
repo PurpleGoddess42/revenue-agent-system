@@ -104,6 +104,10 @@ where its audience actually is, before Naomi's content strategy stage.
 
 ## Monetization comfort
 
+**Deferred (Discovery Mode):** deliberately left blank — offer type, price
+range, and any hard no's will be decided after Simone's Discovery research
+identifies the opportunity, before Camille's Offer Strategy stage.
+
 - **What kind of offer are you open to** (digital product, coaching/service,
   cohort course, community/membership, physical product, affiliate — circle
   or list what's realistic for you):
