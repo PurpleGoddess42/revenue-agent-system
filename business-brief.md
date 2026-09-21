@@ -38,6 +38,56 @@ are NOT to be revived or handed to Camille — the financial objective behind
 that run was too broad. This run replaces it with a corrected, high-value
 objective below.
 
+## Business category — DECIDED
+
+**The business category decision has been made.** Simone is no longer
+searching for what business to start — that question is closed. The
+business is:
+
+**B2B AI Systems & Automation Implementation Company.** We help businesses
+identify expensive revenue or operational bottlenecks and design,
+implement, integrate, and manage AI-powered systems and automated
+workflows that solve those problems.
+
+**We are NOT positioning as:** a cheap chatbot seller; a generic
+freelancer; a $100 automation service; only a voice-AI company; only a
+missed-call service; only a lead-generation company. Any of those may be a
+**component** of a larger implementation, never the whole positioning.
+
+**What we build (illustrative, not exhaustive):** AI agents, lead
+qualification and routing, sales follow-up systems, CRM automation,
+revenue operations automation, customer-service automation, appointment
+and intake systems, document/data workflows, internal operational
+workflows, AI voice systems, multi-step agentic workflows, integrations
+between existing business software, reporting and monitoring, ongoing
+AI-system management and optimization.
+
+**Business model:** (1) paid discovery/strategy where appropriate, (2)
+implementation/setup fees, (3) premium custom projects, (4) recurring
+management/optimization/support, (5) expansion into additional workflows,
+departments, locations, or AI agents.
+
+**Target economics (to validate, not to assume):** $5K-$10K+
+implementations; $10K-$30K+ larger projects where justified; recurring
+retainers/management revenue; larger contracts as capability, proof, and
+complexity increase over time.
+
+**Simone's current assignment:** identify the **beachhead** — the single
+best initial vertical + expensive problem combination for this company to
+enter FIRST, not the entire future company's market. Find the **3
+strongest** initial vertical + problem combinations only (not a broad
+universe of possibilities), each researched to the standard below. Once
+one is selected, it goes straight to Camille (Offer Strategy Director) to
+construct the first premium implementation offer — Naomi and Victoria stay
+uninvoked until then.
+
+Prior research remains archived and informative context (e.g., the home
+services vs. legal head-to-head in
+`outputs/ai-b2b-leverage-v1/research-deep-validation-home-services-vs-legal.md`
+already surfaced real evidence about missed-call/intake pain that may or
+may not resurface as a component within a beachhead vertical here — but
+Simone is not confined to those two verticals for this assignment).
+
 ## The idea (Validation Mode only — leave blank in Discovery Mode)
 
 - **One-sentence description of the idea** (business, content niche, or product):
@@ -53,30 +103,42 @@ objective below.
 
 ## Discovery inputs (Discovery Mode only — leave blank in Validation Mode)
 
-- **Industries/interests you're open to exploring** (as broad or narrow as
-  you want — "anything," "health and fitness," "B2B software for small
-  agencies," etc.): High-value, AI-enabled B2B services and implementations
-  where a relatively small number of clients can generate substantial
-  revenue — not audience-building, not low-ticket freelance volume work.
-  Categories to investigate include (but are not limited to): AI agents,
-  business process automation, AI implementation/consulting, AI-powered
-  sales systems, lead generation/conversion systems, voice AI,
-  customer-service AI, workflow automation, operational AI,
-  marketing/revenue AI, or any other AI-enabled B2B category the research
-  surfaces. Do not assume automation or "AI" is automatically the right
-  lever — validate it against real evidence of money, pain, demand, and
-  current buying activity intersecting.
+- **Industries/interests you're open to exploring**: The business category
+  is now DECIDED (see "Business category — DECIDED" above): B2B AI Systems
+  & Automation Implementation. This is no longer a "what business should I
+  start" search. Look across industries freely to find the **beachhead** —
+  do not limit the search to any single vertical in advance — but every
+  candidate must fit inside this business category (a real AI
+  system/automation implementation, not a different business model
+  entirely).
 
-  **Core research question:** if a highly capable entrepreneur had strong
-  AI tool access/knowledge, a phone/computer, and very little starting
-  capital, and needed to build a serious income-producing business as
-  quickly as practical, what high-value AI-enabled B2B services are worth
-  investigating right now? Look specifically for businesses with expensive
-  problems — where companies are currently losing money, missing revenue,
-  wasting employee time, losing leads, struggling with labor, experiencing
-  operational inefficiency, missing appointments, failing to follow up,
-  losing customers, struggling to convert prospects, or paying heavily for
-  work AI can meaningfully improve.
+  **Core research question (updated):** across industries, where are
+  businesses currently experiencing expensive problems that AI/automation
+  can materially solve, AND where implementation-level pricing
+  (roughly $5K-$30K+, per the target economics above) is economically
+  justified by the problem's cost? Look specifically for businesses
+  currently losing money, missing revenue, wasting employee time, losing
+  leads, struggling with labor, experiencing operational inefficiency,
+  missing appointments, failing to follow up, losing customers, struggling
+  to convert prospects, or paying heavily for work AI can meaningfully
+  improve — where the fix is a genuine implementation project, not a $50
+  subscription.
+
+  **Required output shape:** exactly the 3 strongest initial vertical +
+  problem combinations, not a broad list. For each, cover: exact
+  industry/vertical, exact buyer/decision-maker, the expensive problem,
+  financial/business consequences, current way the problem is handled,
+  what companies currently spend solving it, evidence businesses already
+  purchase comparable AI/automation/implementation services, what AI
+  system could be built, what the implementation would actually include,
+  why it could justify approximately $5K/$10K/$20K+ depending on scope,
+  recurring management/optimization opportunity, ability to demonstrate
+  the system before having many clients, technical difficulty, startup
+  requirements, sales difficulty, speed to market, ability to find
+  prospects directly, scalability, potential to standardize the
+  implementation after the first few clients, major competition, major
+  risks, and evidence quality (using the existing A/B/C/D evidence
+  standard already established in this run).
 
 - **Anything you want the research to explicitly avoid or rule out**: Side
   hustles; low-ticket freelance work; $50-$300 services requiring constant
@@ -203,31 +265,20 @@ This run supersedes `market-discovery-v1` (archived in
 `outputs/market-discovery-v1/`) — that run's candidates are not to be
 carried forward.
 
-Produce 3-5 legitimate, evidence-backed **high-value, AI-enabled B2B**
-opportunities based on current market conditions and real buyer behavior —
-not low-ticket, volume-dependent, or influencer-audience-dependent
-businesses (see Discovery inputs above). Each opportunity should identify
-the specific problem being solved, target customer, evidence of demand,
-evidence that businesses are currently spending money (ideally at or near
-the target economics above) to solve the problem, existing
-competitors/solutions, meaningful gaps in those solutions, realistic
-monetization potential at premium price points, barriers to entry, startup
-requirements, how much of the delivery can genuinely be AI-leveraged vs.
-requires a human, and why the opportunity is timely.
+**Updated success criteria (business category now decided):** the goal of
+this phase is no longer "find a business" — it's **finding our beachhead
+market** within the already-decided B2B AI Systems & Automation
+Implementation category. Success means Simone returns exactly the 3
+strongest initial vertical + expensive-problem combinations (not a broad
+universe), each researched to the standard listed under Discovery inputs
+above, so an informed beachhead decision can be made. Quality and
+evidenced pricing power over novelty — do not recommend a vertical simply
+because it's trendy, and do not credit "AI" as a differentiator unless the
+evidence shows genuine leverage rather than a buzzword.
 
-Show specifically where money, pain, demand, and current buying activity
-intersect — companies actively losing money, missing revenue, wasting
-employee time, losing leads, struggling with labor/operations, missing
-appointments, failing to follow up, losing customers, struggling to
-convert prospects, or paying heavily for work AI can meaningfully improve.
-
-The research should be strong enough to make an informed decision about
-which opportunity deserves further development. Quality and evidenced
-pricing power over novelty — do not recommend an opportunity simply
-because it is trendy, and do not credit "AI" as a differentiator unless
-the evidence shows it's a genuine source of leverage rather than a
-buzzword.
-
-At the end of Discovery, present the opportunities clearly for review. Do
-not continue to Camille (Offer Strategy Director) or the remaining agents
-until the opportunity that moves forward has been selected.
+At the end of this research, present the 3 beachhead candidates clearly
+for review and stop at the human decision gate. Do not continue to Camille
+(Offer Strategy Director) or the remaining agents until the beachhead has
+been selected — once it is, hand the selected opportunity and Simone's
+research straight to Camille to construct the first premium implementation
+offer.
