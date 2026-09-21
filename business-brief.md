@@ -64,13 +64,30 @@ not just theoretically interesting.)
 
 ## Where you're starting from
 
-- **Audience/following**: none yet (default — edit if this has changed)
-- **Email list**: none yet (default — edit if this has changed)
-- **Existing product or service**: none yet (default — edit if this has changed)
+- **Audience/following**: none yet
+- **Email list**: none yet
+- **Existing product or service**: none yet
 - **Budget available** (ad spend, tools, freelancers — or "$0, sweat equity only"):
-- **Time available per week**:
+  Willing to invest in software, AI tools, domains, basic marketing, and
+  other reasonable startup expenses when the opportunity is supported by
+  evidence. Prefer opportunities that can be validated inexpensively before
+  requiring significant capital. Not a $0 budget, but lean testing before
+  major spending is the priority.
+- **Time available per week**: Approximately 15-25 hours per week
+  initially. Willing to increase the time commitment for an opportunity
+  that demonstrates strong evidence of demand and realistic revenue
+  potential.
 - **Skills/assets you already have** (on-camera comfort, writing, design,
-  existing footage, industry experience, certifications, etc.):
+  existing footage, industry experience, certifications, etc.): Strong
+  entrepreneurial mindset and sales/customer-service experience;
+  comfortable learning and using AI tools; experience with social media and
+  digital content; fashion/design and branding experience; strong
+  visual/creative instincts; comfortable developing business concepts,
+  offers, and marketing ideas; experience working directly with customers;
+  comfortable communicating and presenting ideas; willing to learn new
+  software and systems quickly. Can use AI extensively for research,
+  writing, content development, automation, operations, and
+  implementation.
 
 ## Platform focus
 
