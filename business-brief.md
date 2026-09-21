@@ -15,23 +15,44 @@ files and tell the coordinator which one to use for that run.
 
 ---
 
+## Mode
+
+- **Mode** (`Discovery` or `Validation`):
+  - **Discovery** — you have no predetermined idea yet. Leave "The idea" and
+    "Audience" below blank; fill in "Discovery inputs" instead. The Market
+    Signal Researcher will find and evaluate opportunities for you.
+  - **Validation** — you already have an idea. Fill in "The idea" and
+    "Audience" below; leave "Discovery inputs" blank. The Market Signal
+    Researcher will stress-test the specific idea you give it.
+
 ## Run identity
 
 - **Run slug** (short, no spaces, used for the output folder name — e.g. `fitness-coaching-v1`):
 - **Date started**:
 
-## The idea
+## The idea (Validation Mode only — leave blank in Discovery Mode)
 
 - **One-sentence description of the idea** (business, content niche, or product):
 - **Why this idea, why now** (what made you think of it — a trend, a personal
   experience, a gap you noticed):
 
-## Audience
+## Audience (Validation Mode only — leave blank in Discovery Mode)
 
 - **Who do you think this is for** (your best guess — the researcher will
   test this, it doesn't have to be perfect):
 - **What do you already know about their problems** (anecdotes, personal
   experience, things you've seen people complain about):
+
+## Discovery inputs (Discovery Mode only — leave blank in Validation Mode)
+
+- **Industries/interests you're open to exploring** (as broad or narrow as
+  you want — "anything," "health and fitness," "B2B software for small
+  agencies," etc.):
+- **Anything you want the research to explicitly avoid or rule out**:
+
+(Your skills/assets and constraints further below still apply in Discovery
+Mode — the researcher will use them to keep opportunities realistic for you,
+not just theoretically interesting.)
 
 ## Where you're starting from
 

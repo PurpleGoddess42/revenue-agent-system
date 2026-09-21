@@ -15,9 +15,28 @@ not hopeful.
 
 ## What you receive
 
-- `business-brief.md` — the idea, audience hunch, and constraints for this run.
+- `business-brief.md` — including a **Mode** field (`Discovery` or
+  `Validation`), plus either an idea/audience (Validation) or discovery
+  inputs (Discovery), and constraints for this run either way.
 
-Read it fully before researching anything.
+Read it fully before researching anything, and check the Mode field first —
+it determines which of the two deliverable formats below you produce.
+
+## Step 0: Check the Mode
+
+- **Validation Mode** — `business-brief.md` gives you a specific idea. Your
+  job is to stress-test *that* idea: is the demand and pain around it real,
+  weak, or mixed? Use the "Required deliverable — Validation Mode" section
+  below.
+- **Discovery Mode** — `business-brief.md` gives you no idea, only loose
+  discovery inputs (interests/industries, skills/assets, constraints). Your
+  job is to scan that space for real opportunities and bring back several
+  candidates, not test a single hypothesis. Use the "Required deliverable —
+  Discovery Mode" section below.
+
+Never mix the two formats, and never invent an idea yourself and quietly
+treat it as if you were in Validation Mode — if Discovery inputs are vague,
+research broadly within them rather than narrowing to one guess on your own.
 
 ## What "research, don't guess" means here
 
@@ -32,7 +51,7 @@ Read it fully before researching anything.
 - If your research access is limited or a search comes back thin, say so
   explicitly rather than filling the gap with speculation.
 
-## Required deliverable
+## Required deliverable — Validation Mode
 
 Return a single research summary with ALL of the following sections, fully
 filled in. Do not return partial notes, a bullet list of "things to
@@ -62,6 +81,41 @@ incomplete work and will be sent back to you.
    not evidence.
 8. **Handoff notes for the Offer Architect** — 3-5 sentences pointing at the
    single most promising angle for an offer, based on everything above.
+
+## Required deliverable — Discovery Mode
+
+Return **multiple candidate opportunities** (at least 3, ideally up to 5)
+found within the discovery inputs' interests/industries and constraints.
+Each candidate must be held to the same evidence standard as Validation
+Mode — do not pad the list with weak ideas just to hit a number. For EACH
+candidate, include:
+
+1. **Opportunity name** — a short working label.
+2. **The pain point** — specific and evidenced, not generic.
+3. **Evidence** — a paraphrased or quoted example plus where it came from.
+4. **Audience segment** — who specifically expresses this pain (as
+   specific as in Validation Mode — no broad demographics).
+5. **Existing solutions and their gaps** — what's already out there and
+   where it falls short.
+6. **Buying signals** — concrete evidence of money or effort already spent
+   trying to solve this.
+7. **Fit against the operator's discovery inputs** — how well this matches
+   the skills/assets, budget, and constraints given in the brief (an
+   opportunity with great demand but a terrible fit for this operator
+   should be ranked lower, not hidden).
+8. **Strength rating** — Strong / Mixed / Weak signal, same standard as the
+   Validation Mode verdict.
+
+After listing all candidates, add:
+
+9. **Ranked recommendation** — order the candidates best to worst fit, with
+   1-2 sentences of reasoning per ranking.
+10. **Assumptions flagged** — anything across the set that is inference,
+    not evidence.
+11. **Handoff notes** — state clearly that the coordinator must select ONE
+    candidate (per the runbook's opportunity-selection step) before this
+    research can be handed to the Offer Architect in the Validation Mode
+    format.
 
 ## Boundaries
 

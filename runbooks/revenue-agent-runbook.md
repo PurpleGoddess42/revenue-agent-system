@@ -19,8 +19,8 @@ the point: it keeps each specialist focused only on its own lane.
 ## Before you start
 
 1. Fill in `business-brief.md` completely, including a **run slug**
-   (e.g. `fitness-coaching-v1`). This is the only file that changes between
-   runs.
+   (e.g. `fitness-coaching-v1`) and the **Mode** field (`Discovery` or
+   `Validation`). This is the only file that changes between runs.
 2. Create the folder for this run's outputs: `outputs/<run-slug>/`.
 
 ## Step 1 — Market Signal Researcher
@@ -28,15 +28,45 @@ the point: it keeps each specialist focused only on its own lane.
 **Invoke:** the `market-signal-researcher` agent.
 **Give it:** the full contents of `business-brief.md`.
 
-**Verify before moving on** — its response must include all 8 required
-sections from its agent file (verdict, ranked pain points with evidence,
-audience segments, existing solutions/gaps, buying signals, the honest
-counter-case, flagged assumptions, and handoff notes). If any section is
-missing, thin, or unsupported by evidence, **send it back** to the same
-agent naming the specific gap — don't patch it yourself and don't move on
-with incomplete research; everything downstream depends on this being real.
+**Verify before moving on — depends on Mode:**
+
+- **Validation Mode:** its response must include all 8 required sections
+  from its agent file (verdict, ranked pain points with evidence, audience
+  segments, existing solutions/gaps, buying signals, the honest
+  counter-case, flagged assumptions, and handoff notes).
+- **Discovery Mode:** its response must include at least 3 candidate
+  opportunities, each with all required fields (pain point, evidence,
+  audience segment, existing solutions/gaps, buying signals, fit against
+  the brief, strength rating), plus a ranked recommendation and flagged
+  assumptions.
+
+If any section is missing, thin, or unsupported by evidence, **send it
+back** to the same agent naming the specific gap — don't patch it yourself
+and don't move on with incomplete research; everything downstream depends
+on this being real.
+
+## Step 1.5 — Opportunity selection (Discovery Mode only)
+
+Skip this step entirely in Validation Mode.
+
+In Discovery Mode, Step 1 hands you multiple candidates, not one. Before
+continuing to the Offer Architect:
+
+1. Review the ranked candidates with the researcher's evidence.
+2. Pick one candidate to pursue (default to the top-ranked one unless you
+   have a reason to choose otherwise), or send the researcher back for a
+   deeper look at a specific candidate if the evidence is too thin to
+   decide.
+3. Write up the chosen candidate in the same shape as the Validation Mode
+   deliverable (verdict, ranked pain points, audience segments, existing
+   solutions/gaps, buying signals, counter-case, assumptions, handoff
+   notes) using that candidate's own research — this keeps every step
+   after this one identical regardless of which Mode you started in.
 
 **Save the approved output to:** `outputs/<run-slug>/01-market-signal-research.md`
+
+(In Validation Mode, this file is simply Step 1's approved output. In
+Discovery Mode, it's the Step 1.5 write-up of the chosen candidate.)
 
 ## Step 2 — Offer Architect
 
@@ -124,9 +154,10 @@ build, film, and sell, in one place.
 
 The agents and this runbook don't change. To run a new idea:
 
-1. Update `business-brief.md` with the new idea and a new run slug (save the
+1. Update `business-brief.md` with a new run slug and either a new idea
+   (Validation Mode) or new discovery inputs (Discovery Mode) — save the
    old brief into its own output folder first if you want to keep it, e.g.
-   `outputs/<old-slug>/business-brief.md`).
+   `outputs/<old-slug>/business-brief.md`.
 2. Create a new `outputs/<new-slug>/` folder.
 3. Repeat Steps 1-7 above.
 
