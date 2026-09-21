@@ -94,6 +94,10 @@ not just theoretically interesting.)
 Default: multi-format — YouTube long-form + short-form (Reels/TikTok/Shorts)
 + newsletter or blog. Edit below if you want to narrow or change this.
 
+**Deferred (Discovery Mode):** deliberately left blank — platform will be
+decided after Simone's Discovery research identifies the opportunity and
+where its audience actually is, before Naomi's content strategy stage.
+
 - **Primary platform**:
 - **Secondary platform(s)**:
 - **Any platform you want to explicitly exclude**:
