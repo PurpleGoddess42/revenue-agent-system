@@ -1,3 +1,18 @@
+# Business Brief (ARCHIVED — market-discovery-v1)
+
+This is a snapshot of `business-brief.md` as it stood for the `market-discovery-v1`
+run, before it was superseded. This run was abandoned because the financial
+objective was too broad — see `01-market-signal-research-ABANDONED.md` in this
+folder for why, and for the full research produced before the restart.
+
+The live `business-brief.md` at the project root now reflects a new run
+(`ai-b2b-leverage-v1`) with a high-value AI-enabled B2B objective. None of the
+candidates researched under this archived run were sent to Camille (Offer
+Strategy Director) and none should be revived without the operator
+explicitly asking for it.
+
+---
+
 # Business Brief
 
 This file is the **input** to the Revenue Operating System. Everything else in
@@ -27,16 +42,8 @@ files and tell the coordinator which one to use for that run.
 
 ## Run identity
 
-- **Run slug** (short, no spaces, used for the output folder name — e.g. `fitness-coaching-v1`): ai-b2b-leverage-v1
+- **Run slug** (short, no spaces, used for the output folder name — e.g. `fitness-coaching-v1`): market-discovery-v1
 - **Date started**: September 21, 2026
-
-**Supersedes `market-discovery-v1`.** That run's five candidates (UGC
-content for fashion/DTC brands, personal brand visual identity systems,
-brand-in-a-box for small business/Etsy, local service social management,
-LinkedIn ghostwriting) are archived in `outputs/market-discovery-v1/` and
-are NOT to be revived or handed to Camille — the financial objective behind
-that run was too broad. This run replaces it with a corrected, high-value
-objective below.
 
 ## The idea (Validation Mode only — leave blank in Discovery Mode)
 
@@ -55,50 +62,16 @@ objective below.
 
 - **Industries/interests you're open to exploring** (as broad or narrow as
   you want — "anything," "health and fitness," "B2B software for small
-  agencies," etc.): High-value, AI-enabled B2B services and implementations
-  where a relatively small number of clients can generate substantial
-  revenue — not audience-building, not low-ticket freelance volume work.
-  Categories to investigate include (but are not limited to): AI agents,
-  business process automation, AI implementation/consulting, AI-powered
-  sales systems, lead generation/conversion systems, voice AI,
-  customer-service AI, workflow automation, operational AI,
-  marketing/revenue AI, or any other AI-enabled B2B category the research
-  surfaces. Do not assume automation or "AI" is automatically the right
-  lever — validate it against real evidence of money, pain, demand, and
-  current buying activity intersecting.
-
-  **Core research question:** if a highly capable entrepreneur had strong
-  AI tool access/knowledge, a phone/computer, and very little starting
-  capital, and needed to build a serious income-producing business as
-  quickly as practical, what high-value AI-enabled B2B services are worth
-  investigating right now? Look specifically for businesses with expensive
-  problems — where companies are currently losing money, missing revenue,
-  wasting employee time, losing leads, struggling with labor, experiencing
-  operational inefficiency, missing appointments, failing to follow up,
-  losing customers, struggling to convert prospects, or paying heavily for
-  work AI can meaningfully improve.
-
-- **Anything you want the research to explicitly avoid or rule out**: Side
-  hustles; low-ticket freelance work; $50-$300 services requiring constant
-  volume; businesses requiring hundreds or thousands of customers to hit
-  meaningful revenue; businesses dependent on becoming an influencer first;
-  businesses requiring years of audience-building before meaningful
-  revenue; opportunities that are merely trendy with weak purchasing
-  evidence; opportunities where "AI" is only a marketing buzzword with no
-  real leverage behind it. Also still excluded: illegal or deceptive
-  businesses, gambling, adult content, highly regulated businesses
-  requiring professional licensing I do not possess, and opportunities
-  requiring substantial upfront inventory or capital before validating
-  demand.
-
-- **Target economics** (guidance for research, not assumptions — Simone
-  must verify where the market actually supports this pricing before
-  treating any of it as validated): initial engagements in the
-  $2,000-$5,000 range, implementations at $5,000-$10,000+, premium
-  recurring retainers, and larger projects at $10,000-$30,000+ where
-  genuine business value supports that price. Long-term objective: a
-  business capable of $10K-$100K+ in monthly revenue without requiring
-  hundreds of customers.
+  agencies," etc.): Open to any legitimate industry or market where current
+  evidence shows strong demand, urgent or expensive problems, active buyer
+  spending, and an opportunity that can realistically be entered by a solo
+  entrepreneur using AI and digital tools. Do not limit the research to my
+  existing interests or previous business ideas.
+- **Anything you want the research to explicitly avoid or rule out**:
+  Illegal or deceptive businesses, gambling, adult content, highly
+  regulated businesses requiring professional licensing I do not possess,
+  and opportunities requiring substantial upfront inventory or capital
+  before validating demand.
 
 (Your skills/assets and constraints further below still apply in Discovery
 Mode — the researcher will use them to keep opportunities realistic for you,
@@ -146,26 +119,16 @@ where its audience actually is, before Naomi's content strategy stage.
 
 ## Monetization comfort
 
-Target economics given below (see also "Target economics" under Discovery
-inputs) — Simone must validate these against real market evidence before
-they're treated as confirmed; final offer structure and exact pricing get
-decided with Camille once an opportunity is selected.
+**Deferred (Discovery Mode):** deliberately left blank — offer type, price
+range, and any hard no's will be decided after Simone's Discovery research
+identifies the opportunity, before Camille's Offer Strategy stage.
 
 - **What kind of offer are you open to** (digital product, coaching/service,
   cohort course, community/membership, physical product, affiliate — circle
-  or list what's realistic for you): High-ticket B2B AI-enabled services —
-  implementation, consulting, automation builds, AI-powered systems,
-  premium recurring retainers. Explicitly NOT low-ticket freelance work or
-  high-volume small transactions.
-- **Rough price range you're comfortable starting at**: $2,000-$5,000 for
-  initial engagements, scaling to $5,000-$10,000+ implementations and
-  $10,000-$30,000+ projects where justified — targets to validate against
-  evidence, not fixed assumptions.
+  or list what's realistic for you):
+- **Rough price range you're comfortable starting at**:
 - **Anything you refuse to sell** (e.g. "no 1:1 coaching," "no high-ticket
-  calls"): Low-ticket/high-volume services requiring constant client
-  turnover; anything dependent on first building an influencer-style
-  audience; anything requiring years of audience-building before
-  meaningful revenue.
+  calls"):
 
 ## Competitive landscape (optional — fill in what you know, research will fill gaps)
 
@@ -199,34 +162,17 @@ What would make this specific run worth the time — e.g. "a content angle I'd
 actually feel confident filming this week" or "an offer I could sell to 10
 people in a month."
 
-This run supersedes `market-discovery-v1` (archived in
-`outputs/market-discovery-v1/`) — that run's candidates are not to be
-carried forward.
-
-Produce 3-5 legitimate, evidence-backed **high-value, AI-enabled B2B**
-opportunities based on current market conditions and real buyer behavior —
-not low-ticket, volume-dependent, or influencer-audience-dependent
-businesses (see Discovery inputs above). Each opportunity should identify
-the specific problem being solved, target customer, evidence of demand,
-evidence that businesses are currently spending money (ideally at or near
-the target economics above) to solve the problem, existing
-competitors/solutions, meaningful gaps in those solutions, realistic
-monetization potential at premium price points, barriers to entry, startup
-requirements, how much of the delivery can genuinely be AI-leveraged vs.
-requires a human, and why the opportunity is timely.
-
-Show specifically where money, pain, demand, and current buying activity
-intersect — companies actively losing money, missing revenue, wasting
-employee time, losing leads, struggling with labor/operations, missing
-appointments, failing to follow up, losing customers, struggling to
-convert prospects, or paying heavily for work AI can meaningfully improve.
+Produce 3-5 legitimate, evidence-backed business opportunities based on
+current market conditions and real buyer behavior. Each opportunity should
+identify the specific problem being solved, target customer, evidence of
+demand, evidence that people or businesses are currently spending money to
+solve the problem, existing competitors/solutions, meaningful gaps in those
+solutions, realistic monetization potential, barriers to entry, startup
+requirements, and why the opportunity is timely.
 
 The research should be strong enough to make an informed decision about
-which opportunity deserves further development. Quality and evidenced
-pricing power over novelty — do not recommend an opportunity simply
-because it is trendy, and do not credit "AI" as a differentiator unless
-the evidence shows it's a genuine source of leverage rather than a
-buzzword.
+which opportunity deserves further development. Quality over novelty — do
+not recommend an opportunity simply because it is trendy.
 
 At the end of Discovery, present the opportunities clearly for review. Do
 not continue to Camille (Offer Strategy Director) or the remaining agents
