@@ -127,8 +127,19 @@ existing solutions and their gaps as part of Discovery.
 ## Constraints and non-negotiables
 
 - **Topics, tones, or tactics you won't use** (e.g. no fear-based marketing,
-  no fake urgency, no topics outside your expertise):
-- **Anything else the agents should know before starting**:
+  no fake urgency, no topics outside your expertise): No deceptive or
+  misleading marketing, fake testimonials, fabricated results, fake
+  scarcity or urgency, illegal tactics, or unethical shortcuts. Marketing
+  can be bold, persuasive, direct, and emotionally compelling, but claims
+  must be supportable and truthful.
+- **Anything else the agents should know before starting**: Prioritize
+  legitimate opportunities with evidence of real demand and active buyer
+  spending. Willing to learn new industries, tools, and skills, so do not
+  reject a strong opportunity merely due to lack of existing experience in
+  that field — but clearly identify any significant learning curve,
+  legal/regulatory requirement, startup cost, or execution risk. Favor
+  opportunities a solo entrepreneur can test quickly and leanly using AI,
+  automation, and digital tools before making a large investment.
 
 ## Definition of success for this run
 
