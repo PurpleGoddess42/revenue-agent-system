@@ -17,7 +17,7 @@ files and tell the coordinator which one to use for that run.
 
 ## Mode
 
-- **Mode** (`Discovery` or `Validation`):
+- **Mode** (`Discovery` or `Validation`): Discovery
   - **Discovery** — you have no predetermined idea yet. Leave "The idea" and
     "Audience" below blank; fill in "Discovery inputs" instead. The Market
     Signal Researcher will find and evaluate opportunities for you.
@@ -27,8 +27,8 @@ files and tell the coordinator which one to use for that run.
 
 ## Run identity
 
-- **Run slug** (short, no spaces, used for the output folder name — e.g. `fitness-coaching-v1`):
-- **Date started**:
+- **Run slug** (short, no spaces, used for the output folder name — e.g. `fitness-coaching-v1`): market-discovery-v1
+- **Date started**: September 21, 2026
 
 ## The idea (Validation Mode only — leave blank in Discovery Mode)
 
@@ -47,8 +47,16 @@ files and tell the coordinator which one to use for that run.
 
 - **Industries/interests you're open to exploring** (as broad or narrow as
   you want — "anything," "health and fitness," "B2B software for small
-  agencies," etc.):
+  agencies," etc.): Open to any legitimate industry or market where current
+  evidence shows strong demand, urgent or expensive problems, active buyer
+  spending, and an opportunity that can realistically be entered by a solo
+  entrepreneur using AI and digital tools. Do not limit the research to my
+  existing interests or previous business ideas.
 - **Anything you want the research to explicitly avoid or rule out**:
+  Illegal or deceptive businesses, gambling, adult content, highly
+  regulated businesses requiring professional licensing I do not possess,
+  and opportunities requiring substantial upfront inventory or capital
+  before validating demand.
 
 (Your skills/assets and constraints further below still apply in Discovery
 Mode — the researcher will use them to keep opportunities realistic for you,
