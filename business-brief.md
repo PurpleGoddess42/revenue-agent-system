@@ -117,6 +117,10 @@ identifies the opportunity, before Camille's Offer Strategy stage.
 
 ## Competitive landscape (optional — fill in what you know, research will fill gaps)
 
+**Deferred (Discovery Mode):** deliberately left blank — no "this space" yet
+to have opinions about competitors in. Simone's research will surface
+existing solutions and their gaps as part of Discovery.
+
 - **Creators/companies already in this space you admire**:
 - **Creators/companies you want to differentiate from**:
 
