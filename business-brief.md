@@ -147,4 +147,18 @@ What would make this specific run worth the time — e.g. "a content angle I'd
 actually feel confident filming this week" or "an offer I could sell to 10
 people in a month."
 
--
+Produce 3-5 legitimate, evidence-backed business opportunities based on
+current market conditions and real buyer behavior. Each opportunity should
+identify the specific problem being solved, target customer, evidence of
+demand, evidence that people or businesses are currently spending money to
+solve the problem, existing competitors/solutions, meaningful gaps in those
+solutions, realistic monetization potential, barriers to entry, startup
+requirements, and why the opportunity is timely.
+
+The research should be strong enough to make an informed decision about
+which opportunity deserves further development. Quality over novelty — do
+not recommend an opportunity simply because it is trendy.
+
+At the end of Discovery, present the opportunities clearly for review. Do
+not continue to Camille (Offer Strategy Director) or the remaining agents
+until the opportunity that moves forward has been selected.
