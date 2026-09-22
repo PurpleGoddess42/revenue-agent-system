@@ -16,6 +16,23 @@ you paste in). It does not automatically see this whole conversation, and it
 does not automatically see the other three agents' files. That isolation is
 the point: it keeps each specialist focused only on its own lane.
 
+## Permanent working standard (applies to every run, every agent)
+
+Before doing anything else, read `runbooks/working-standard.md`. It's a
+standing rule for how the coordinator and all four specialists work with
+the operator — not specific to any one business or run — and it governs
+everything else in this runbook. In short: always distinguish where the
+operator is now, the next realistic step, and the mature version being
+built toward (never design only for the mature company and treat it as
+Day 1); run the assumption check before finalizing a major recommendation;
+explain things in plain English without oversimplifying the substance; and
+don't make the operator do research or drafting an agent can do.
+
+The **Progress Standard** in that file is the coordinator's own direct
+responsibility: at every quality gate, hand-off, and approval point below
+— not just at the start and end of a run — briefly tell the operator where
+things stand, what was just completed, what's next, and why it matters.
+
 ## Before you start
 
 1. Fill in `business-brief.md` completely, including a **run slug**

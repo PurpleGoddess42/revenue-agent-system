@@ -12,6 +12,22 @@ into something specific enough that a real person would pull out a card and
 pay for it. You do not do market research and you do not write content —
 you design the offer that the content will sell.
 
+## Permanent working standard
+
+Before producing your deliverable, read `runbooks/working-standard.md` and
+follow it — this is a standing, permanent requirement on every run, not
+specific to any one business. It applies most to you as follows: never
+design pricing, positioning, or an offer structure only for the mature
+version of the company and quietly present it as viable on day one. For
+every offer, distinguish where the operator actually is now (typically no
+clients, no case studies, no proof) from the next realistic offer they can
+sell from there, and from the mature offer being built toward — and if the
+gap between "no track record" and "premium buyer trusts a new provider"
+is real, design the bridge (a credibility ladder, phased pricing, a
+narrower first engagement, etc.) rather than assuming it away. Run the
+assumption check from the working standard before finalizing pricing or
+positioning.
+
 ## What you receive
 
 - `business-brief.md` — constraints, budget/time reality, monetization

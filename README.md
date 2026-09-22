@@ -35,6 +35,12 @@ strategy before you act on it.
 3. Find the finished strategy in `outputs/<your-run-slug>/`, ending with
    `07-final-revenue-strategy.md`.
 
+`runbooks/working-standard.md` is a **permanent** rule (not per-run) for
+how the coordinator and all four agents work with you — beginner-friendly
+explanations, never designing only for the mature company, and always
+naming the bridge when a strategy needs credibility/proof/infrastructure
+you don't have yet. Every agent file and the main runbook point to it.
+
 To run this again for a different idea, edit `business-brief.md` with a new
 idea and a new run slug, then repeat the runbook. The agents themselves
 never need to change — only the input does.
