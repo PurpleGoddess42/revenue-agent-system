@@ -237,13 +237,25 @@ not just theoretically interesting.)
 Default: multi-format — YouTube long-form + short-form (Reels/TikTok/Shorts)
 + newsletter or blog. Edit below if you want to narrow or change this.
 
-**Deferred (Discovery Mode):** deliberately left blank — platform will be
-decided after Simone's Discovery research identifies the opportunity and
-where its audience actually is, before Naomi's content strategy stage.
+**Resolved (coordinator decision, per the runbook, now that the audience is
+known):** the buyer is a founder/COO at a DTC e-commerce brand — a
+professional, B2B decision-maker, not a consumer audience. That points
+away from the generic multi-format default toward a platform where that
+specific person actually spends time making buying decisions.
 
-- **Primary platform**:
-- **Secondary platform(s)**:
-- **Any platform you want to explicitly exclude**:
+- **Primary platform**: LinkedIn — this is where founder/COO-level B2B
+  buyers evaluate vendors, follow operators in their space, and where
+  organic thought-leadership content (posts, short breakdowns, case
+  studies once they exist) can realistically reach this exact buyer
+  without needing a large pre-existing audience first.
+- **Secondary platform(s)**: A short newsletter/blog (for SEO and a
+  deeper, linkable version of LinkedIn content — useful to send directly
+  to prospects during outreach) and YouTube long-form as a longer-term
+  channel once there's more to show (product walkthroughs, a recorded
+  demo, eventually a case study) — not the primary channel on day one.
+- **Any platform you want to explicitly exclude**: Short-form/TikTok-style
+  vertical video — mismatched to a B2B buyer researching a $2,500-$20,000
+  implementation decision, not a consumer scrolling for entertainment.
 
 ## Monetization comfort
 
