@@ -6,7 +6,7 @@
 
 **Evidence quality note (Camille's own flag):** Simone's research is entirely vendor-pricing and secondary-source based (A/B/C rated) — there is no first-person buyer complaint, review, or interview confirming a $5M-$50M DTC brand has actually said "I want this" or would pay a specific price for it. Everywhere Camille goes beyond what the research directly stated, it's flagged below as **EXTRAPOLATION** so downstream agents and the operator don't treat it as validated fact.
 
-**Status:** Strategic direction (Sections 1-11 below) is operator-approved. An operational refinement pass (Section 12) has been added to make the offer concrete enough to explain, sell, and deliver — **awaiting operator approval before handoff to Naomi (Content Angle Strategist).**
+**Status:** Strategic direction (Sections 1-11) is operator-approved. Operational refinement (Section 12) and the new-provider market entry / credibility ladder (Section 13) have been added — **awaiting operator approval before handoff to Naomi (Content Angle Strategist).**
 
 ---
 
@@ -197,3 +197,103 @@ Beachhead, offer name, and pricing bands unchanged from the approved strategy ab
 ### Scope compliance note
 
 No new research was conducted and no research agents (Simone, Naomi, Victoria) were invoked; the beachhead, offer name, and pricing bands from the approved offer strategy are unchanged — this is delivery/packaging refinement only. All extrapolations beyond confirmed research or brief content are flagged inline above (tech-stack capability assumptions, timelines, and demo tooling choices) since none of this has been sold or built yet.
+
+---
+
+## 13. New-Provider Market Entry / Credibility Ladder
+
+This does not change the approved offer, pricing bands, beachhead, or business model. It defines how a brand-new provider with zero case studies reaches the approved $5M-$50M DTC/e-commerce target credibly, instead of assuming that market will buy from an unproven vendor on day one. Simone's research explicitly found no data on what a new, unproven operator can charge or how fast a first deal closes — everything price/timing-specific below is Camille's own practical judgment, flagged as **EXTRAPOLATION**, not validated fact.
+
+### 13.1 Long-term ideal client vs. first 1-3 clients
+
+**Long-term ideal client (unchanged):** $5M-$50M DTC/e-commerce brand, Shopify + Gorgias-or-Zendesk + Klaviyo, internal CX/ops staff, existing vendor relationships, real procurement and data-security expectations.
+
+**First 1-3 clients should NOT be $5M-$50M brands.** That buyer has internal technical staff, existing agency relationships, and real procurement friction — a sophisticated buyer with alternatives will reasonably ask "who else have you done this for," and a brand-new provider has no good answer yet. Pursuing that buyer first risks a slow, low-probability sales cycle and a first engagement with too much political/technical complexity to execute cleanly.
+
+### 13.2 First-client profile
+
+A smaller version of the exact same ICP, not a different market: a founder-led DTC/e-commerce brand doing roughly **$1M-$5M/year in revenue**, already on Shopify, already using Gorgias or Zendesk and Klaviyo (or clearly about to), where the founder or a single ops/support lead is personally still handling or closely managing support — no dedicated support-automation staff, no existing AI vendor relationship, no procurement committee (the founder can say yes alone). **EXTRAPOLATION:** exact ticket-volume threshold isn't confirmed by research; a reasonable proxy is a brand fielding low-hundreds to low-thousands of tickets/month, enough volume to produce a countable before/after result. This profile matters because everything built here — the stack, the workflow logic, the documentation discipline — transfers directly upward to the $5M-$50M target; it is not a detour into a different business.
+
+A warm-network first client (someone in the operator's existing circle, or a founder willing to be an early adopter) further de-risks the first deal and should be actively sought before cold outreach.
+
+### 13.3 The first expensive problem to solve
+
+Order status/tracking questions and basic return-policy questions — the single highest-volume, lowest-liability ticket category. Not refund automation, not sentiment-based escalation, not cart-recovery/Klaviyo lifecycle work. This keeps the first engagement narrow, safe, and easy to measure, and avoids the public-mishandling risk the research flagged for this audience on the very first, least-proven deployment.
+
+### 13.4 Offer version to sell first
+
+Not a standalone paid audit (produces analysis, not a demonstrable result the operator needs for a portfolio) and not full Tier 1 scope. Sell an even more contained **"Founding Client" build**: exactly one intent category (order status/tracking only), inside the client's existing helpdesk, with the same testing/documentation discipline as full Tier 1, explicitly framed as a founding-client engagement in exchange for case-study rights, a testimonial, and permission to use results (with company name if willing, anonymized if not).
+
+### 13.5 What the first implementation should cost
+
+**$2,500-$4,000**, split into a phased payment (e.g., 50% at kickoff, 50% at successful launch) rather than full payment upfront. **EXTRAPOLATION:** this is meaningfully below the approved Tier 1 floor ($5K-$7.5K) but still a real, premium-adjacent implementation fee — not a $100-500 freelance job — because the deliverable, documentation, and testing discipline are the same quality as a paying Tier 1 client would get; only the scope (one category) and price are reduced, explicitly as a time-limited founding-client term, not a new permanent cheap tier.
+
+### 13.6 What can be demonstrated before having any clients
+
+The sandbox demo already defined in Section 12.10: a fictional Shopify store, a mocked or trial helpdesk, and a trial Klaviyo account showing a realistic order-status conversation resolved correctly, a harder case correctly escalated to a human instead of guessed at, and one recovered-cart example. This is the trust-building asset used to close Client #1 without needing prior results — "watch it work" instead of "trust me."
+
+### 13.7 Reducing the first client's perceived risk
+
+- Transparent "Founding Client" framing — name the newness honestly rather than hiding it, consistent with the brief's no-deception constraint; position it as direct, hands-on founder-level attention rather than a black-box vendor relationship.
+- Phased payment tied to milestones (kickoff / successful launch), not full payment upfront.
+- Narrow scope and a fast 2-3 week timeline (single category, not multi-category Tier 1) limits exposure for both sides.
+- The escalation-to-human safety net is explicitly sold as the risk control: anything the AI isn't confident about goes to a person, capping the downside of a public mishandling incident.
+- The sandbox demo proves technical competence before any commitment is asked.
+- No long-term lock-in: the founding-client engagement is scoped as a single project, not an auto-renewing contract, removing "what if this doesn't work" as a blocking objection.
+
+### 13.8 Access to avoid requesting initially
+
+Do not request: full Shopify admin/financial or payment data access, full CRM/ERP access, access to unrelated departments (marketing spend, ad accounts, inventory/finance systems), unsupervised send authority for customer-facing communications during the pilot, or any customer PII beyond what the single workflow needs. Request only: read access to the specific order/ticket data required for order-status resolution, and edit access limited to the helpdesk's macro/automation area — nothing at the store-admin level.
+
+### 13.9 Contained single workflow — yes
+
+Client #1 should be scoped even narrower than the approved Tier 1 (which allows 1-2 categories): exactly one workflow, order status/tracking only. This is a deliberate **"Tier 0" founding-client scope** that exists solely to produce a fast, clean, provable result — full Tier 1's 1-2 category scope becomes the standard starting point again from Client #2 onward.
+
+### 13.10 Proof to collect from Client #1
+
+Before/after ticket volume handled by AI vs. human; resolution rate; average response-time reduction; estimated hours/week saved for the team; a specific dollar cost-savings estimate (tickets deflected × avoided cost-per-ticket, using the client's own numbers); a direct written testimonial; permission to use the company name and logo, or an anonymized version if declined; a screen-recording of the system working in production (with PII redacted) for future sales/demo use.
+
+### 13.11 Proof to collect from Clients #2 and #3
+
+Everything from Client #1, plus: evidence of repeatability across a different brand voice, policy set, and helpdesk platform (shows a system, not a fluke); at least one engagement expanded to full Tier 1 scope (1-2 categories) or upsold toward Tier 2, showing the operator can handle more than the narrowest possible build; ideally one client with a slightly larger revenue base ($2M-$10M) to start bridging toward the $5M-$50M target; a second, more detailed case study with a quantified ROI figure (e.g., "$X saved/recovered for $Y invested") suitable for a sales page or proposal.
+
+### 13.12 When there's enough credibility for $5M-$50M brands
+
+After 3+ completed, documented implementations with quantified results, including at least one client toward the upper end of the small-client band ($2M-$10M) and at least one engagement that reached full Tier 1 or a Tier 2 upsell (not just the narrowest single-workflow build), plus a delivery process that has actually been run end-to-end more than once, not just designed on paper. **EXTRAPOLATION:** at roughly one client every 4-6 weeks, this is plausibly reachable in the 3-5 month range, but this is a planning estimate, not a guaranteed timeline — it depends entirely on how fast the first deals close, which the research explicitly could not predict.
+
+### 13.13 Pricing progression as proof increases
+
+- **Client #1 (Founding Client):** $2,500-$4,000, single workflow, phased payment, explicit case-study trade.
+- **Clients #2-3:** $4,000-$6,000, moving toward full Tier 1 scope (1-2 categories), smaller discount since some proof now exists, still likely $1M-$8M revenue brands.
+- **Client #4 onward**, once 3 documented case studies exist: full approved Tier 1 pricing ($5K-$7.5K) becomes the standard asking price with no founding-client discount; Tier 2 ($10K-$20K+) becomes actively sellable once at least one client has been expanded into a fuller build.
+- **Once consistently landing $5M-$50M brands:** pricing moves toward the top of the Tier 2 range and beyond as complexity increases, retainer attach rate should rise, and the paid discovery/audit product becomes a standard, undiscounted offering for larger, more risk-conscious buyers who need it to justify a first yes.
+
+(All figures in this progression are EXTRAPOLATION — practical judgment, not validated by research.)
+
+### 13.14 What stays unchanged regardless of client size
+
+The Stack-Native Implementation System mechanism (integrate with the client's existing stack, never replace it); the mandatory escalation-to-human safety net and a written autonomous-vs-escalate decision logic; the testing/scenario-log discipline and written handover documentation; the scope-protection discipline and change-order boundaries from Section 12.8; and the premium framing itself — even a discounted founding-client engagement is a real, fully-documented implementation project, not ad hoc or $100-500 freelance-style work. The discount is a time-limited, relationship-based term, never a permanent cheap tier.
+
+### 13.15 What is the mature/Day-100 version, not the Day-1 version
+
+Full multi-category Tier 1 and the complete Tier 2 build with Klaviyo lifecycle integration; the consolidated cross-platform reporting dashboard (Day-1 can use basic native platform reporting); the formal paid discovery/audit as a standalone sold product (hard to sell credibly with zero track record — for Client #1 this is done informally/bundled at low or no separate cost); the full structured $500-$2K/month retainer with defined SLAs (Day-1 retainer, if offered at all, should be a simpler, lower-commitment add-on); sentiment-based/VIP-routing logic and multi-brand/multi-store engagements; and treating $5M-$50M outbound as the default go-to-market motion — that is the rung reached after Clients 1-3 and case studies exist, not the starting motion.
+
+### 13.16 The credibility ladder
+
+1. **DEMO** — Build the sandbox demo (fictional store/orders, mocked or trial helpdesk, trial Klaviyo) showing correct resolution, correct escalation, and one recovered-cart example. Purpose: prove technical competence with zero clients. Exit criteria: demo reliably runs the three scenarios without failure.
+
+2. **FIRST CLIENT** — A $1M-$5M founder-led DTC brand, ideally warm-network, sold a single contained workflow (order status/tracking only) for $2,500-$4,000, phased payment, explicit founding-client/case-study trade, narrow scope, 2-3 week timeline, human-escalation safety net front and center. Exit criteria: successful launch plus a measurable before/after result.
+
+3. **PROOF** — Collect quantified results, testimonial, usage rights, and a redacted screen-recording from Client #1. Exit criteria: a usable, honest case study exists.
+
+4. **CLIENTS 2-3** — Similar or slightly larger ($1M-$8M) brands, priced $4,000-$6,000, scope expanded toward full approved Tier 1 (1-2 categories), with at least one engagement pushed toward Tier 2 or a larger revenue-band client. Exit criteria: repeatable process demonstrated across different brand voices/platforms; 2 more case studies collected.
+
+5. **CASE STUDY / IMPLEMENTATION TRACK RECORD** — 3+ documented, quantified case studies; a delivery process proven end-to-end more than once; at least one client near $2M-$10M and one Tier 1/Tier 2-scale engagement. Exit criteria: sales materials exist that a $5M-$50M buyer would find credible, not just plausible.
+
+6. **LARGER DTC CLIENTS** — Begin actively targeting the approved $5M-$50M beachhead, now leading with the paid discovery/audit as a standard undiscounted product for skeptical, higher-stakes buyers, full Tier 1 pricing as the floor, and Tier 2 as a normal upsell. Exit criteria: first $5M-$50M client signed and delivered successfully.
+
+7. **PREMIUM IMPLEMENTATIONS** — Consistent Tier 2 and retainer sales at or above the approved pricing bands, multi-workflow and multi-brand engagements, growing contract size as capability and proof compound — the original approved offer, now sold to the buyer it was designed for, backed by real evidence instead of a demo alone.
+
+### Scope compliance note (Section 13)
+
+No changes were made to the previously approved offer content (Sections 1-12); no new research was conducted; no other agents (Simone, Naomi, Victoria) were invoked. This section defines a path to the approved market, not a smaller replacement business — the company remains positioned as a premium AI Systems & Automation Implementation provider at every rung of the ladder.
