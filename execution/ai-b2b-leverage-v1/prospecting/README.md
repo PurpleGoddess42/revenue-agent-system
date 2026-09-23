@@ -114,9 +114,21 @@ Every prospect moves through these stages, tracked in the `Stage` column of the 
 
 **What you do:** approve which prospects are worth pursuing, approve and personally send every outreach message, have the actual conversations with anyone who responds, run the demo walkthroughs and qualifying conversations, approve final pricing/scope for each real deal, and close the relationship. Per the working standard, this isn't optional human-in-the-loop theater — these are exactly the parts of the job that require your judgment and relationship, not the AI's.
 
-## 8. Recommended first batch size
+## 8. Standard batch size
 
-**10 prospects, fully researched and qualified, not a bigger number.** The goal of the first batch isn't volume — it's testing whether this qualification framework actually finds good-fit companies and whether the personalized outreach gets replies. Ten is small enough to review every single one closely yourself before any message goes out, and large enough to learn something real from the results (which ones got a HIGH PRIORITY label, whether that predicted a reply, what needs to change in the framework). Once the process proves itself on this batch, later batches can move toward the ~15-20/week pace estimated in `04-conversion-system.md` Section 9.8.
+**20 prospects, fully researched and qualified, per batch.** This is the default for every future prospecting run unless the operator specifies a different number for a particular batch. Twenty is enough to reliably surface a handful of HIGH PRIORITY candidates even if the qualification rate runs low, while still being small enough to review closely before any outreach goes out. This aligns with the ~15-20/week pace estimated in `04-conversion-system.md` Section 9.8 — one batch is roughly a week's worth of manual outbound capacity for a solo operator.
+
+*(Originally set at 10 for the very first test batch; raised to 20 as the standing default per operator instruction.)*
+
+## 9. Evidence-labeling standard (applies to every field, every batch)
+
+Every piece of information recorded — not just the size estimate — is labeled as one of:
+
+- **VERIFIED FACT** — directly confirmed from a public, checkable source (e.g., "Shopify" confirmed via page source; a name confirmed on the company's own team page).
+- **REASONABLE INFERENCE** — a plausible conclusion drawn from indirect public evidence, clearly not a confirmed fact (e.g., "likely $1-3M revenue" inferred from employee count and catalog size).
+- **UNKNOWN** — not found, or not confidently determinable from public information. Never filled in with a guess.
+
+This labeling happens inline, within each field's own text (e.g., "Gorgias (VERIFIED FACT — visible chat widget references Gorgias)"), not in a separate column — this keeps the tracker to one row per prospect while making the evidence quality of every claim visible at a glance. This replaces the earlier single "Confidence Level" column, which only covered the size estimate; the standard now applies to every field.
 
 ## Files in this folder
 
