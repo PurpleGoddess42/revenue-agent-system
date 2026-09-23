@@ -52,6 +52,16 @@ business-brief.md              <- the input you edit per run
 .claude/agents/                <- the four specialist definitions
 runbooks/
   revenue-agent-runbook.md     <- step-by-step execution guide
+  working-standard.md          <- permanent working rules for every run
 outputs/
-  <run-slug>/                  <- one folder per run's deliverables
+  <run-slug>/                  <- one run's finished strategy (doesn't change once approved)
+execution/
+  <run-slug>/                  <- the operational tools you use to actually run the
+                                   approved strategy (prospecting trackers, etc.) -
+                                   see execution/README.md for how this differs from outputs/
 ```
+
+Once a strategy is approved and you move into running the business day-to-day,
+`execution/<run-slug>/` is where that operational work lives — kept separate
+from the strategy files in `outputs/`, which stay as the historical record of
+what was decided.
