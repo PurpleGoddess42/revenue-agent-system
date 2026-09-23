@@ -6,7 +6,7 @@
 
 **Evidence quality note (Camille's own flag):** Simone's research is entirely vendor-pricing and secondary-source based (A/B/C rated) — there is no first-person buyer complaint, review, or interview confirming a $5M-$50M DTC brand has actually said "I want this" or would pay a specific price for it. Everywhere Camille goes beyond what the research directly stated, it's flagged below as **EXTRAPOLATION** so downstream agents and the operator don't treat it as validated fact.
 
-**Status:** Strategic direction (Sections 1-11) is operator-approved. Operational refinement (Section 12) and the new-provider market entry / credibility ladder (Section 13) have been added — **awaiting operator approval before handoff to Naomi (Content Angle Strategist).**
+**Status:** Fully approved through Sections 1-13, including the credibility ladder. Section 13 (Tier 0 scope, pricing rationale, wedge rationale) was updated per the operator-approved second-pass strategic review (`06-strategic-review.md`) — see the "added on second-pass review" notes within 13.3-13.5.
 
 ---
 
@@ -220,13 +220,31 @@ A warm-network first client (someone in the operator's existing circle, or a fou
 
 Order status/tracking questions and basic return-policy questions — the single highest-volume, lowest-liability ticket category. Not refund automation, not sentiment-based escalation, not cart-recovery/Klaviyo lifecycle work. This keeps the first engagement narrow, safe, and easy to measure, and avoids the public-mishandling risk the research flagged for this audience on the very first, least-proven deployment.
 
+**Rationale for choosing this specific wedge (added on second-pass review):** this category was chosen because it's fast to build, fast to demo, and low-risk to test on a first, unproven client relationship — not because it's the buyer's most urgent pain. Simone's research ranks the DIY-to-enterprise implementation gap and cost-per-ticket scaling as the top pain points; those are addressed more fully by the mature Tier 1/Tier 2 offer once there's proof to sell against, not by the narrowest possible first engagement.
+
+Client #1's own urgency should be pitched concretely rather than on the mature buyer's structural cost-compounding argument: a $1M-$5M founder-led brand heading toward Black Friday/Cyber Monday is about to see a real, dateable spike in "where is my order" ticket volume — getting a tested, working order-status automation live before that surge is a concrete, near-term reason to act now, not a someday project. (This BFCM timing point is a general seasonal fact about e-commerce, not something Simone's research identified as a buying signal specific to this offer — use it honestly as a real calendar deadline, not framed as manufactured urgency.)
+
 ### 13.4 Offer version to sell first
 
 Not a standalone paid audit (produces analysis, not a demonstrable result the operator needs for a portfolio) and not full Tier 1 scope. Sell an even more contained **"Founding Client" build**: exactly one intent category (order status/tracking only), inside the client's existing helpdesk, with the same testing/documentation discipline as full Tier 1, explicitly framed as a founding-client engagement in exchange for case-study rights, a testimonial, and permission to use results (with company name if willing, anonymized if not).
 
+**TIER 0 — Founding Client (exact scope, added on second-pass review):**
+
+Included:
+- AI intent classification limited to a single category: order-status/tracking questions ("where is my order," tracking lookup, delivery-date questions).
+- Connection to Shopify order data sufficient to answer that one category (order status, tracking number, fulfillment status) — read-only, scoped to this workflow.
+- Exception/escalation rules: any ticket outside order-status/tracking, any ambiguous or emotionally charged message, and any request involving a refund, complaint, or policy exception is routed to the client's team with a context summary, never resolved autonomously.
+- QA testing across an agreed sample set of real and edge-case tickets (both "should resolve" and "should escalate" scenarios), with a written pass/fail test log.
+- Written handover documentation: what the system does, how the escalation logic works, how to edit response templates.
+- One training session with the client's team.
+
+Not included: any category beyond order-status/tracking (no returns, refunds, shipping-delay, or damaged-item handling); no Klaviyo or cart-abandonment/lifecycle work; no new channel not already live in the client's existing helpdesk; no ongoing monitoring or optimization beyond a short post-launch check-in window; no multi-store/multi-brand coverage; no custom reporting dashboard (native platform reporting only). This mirrors the discipline of Tier 1's exclusions, scoped one step narrower.
+
 ### 13.5 What the first implementation should cost
 
 **$2,500-$4,000**, split into a phased payment (e.g., 50% at kickoff, 50% at successful launch) rather than full payment upfront. **EXTRAPOLATION:** this is meaningfully below the approved Tier 1 floor ($5K-$7.5K) but still a real, premium-adjacent implementation fee — not a $100-500 freelance job — because the deliverable, documentation, and testing discipline are the same quality as a paying Tier 1 client would get; only the scope (one category) and price are reduced, explicitly as a time-limited founding-client term, not a new permanent cheap tier.
+
+**Why it's worth this price, not a DIY toggle (added on second-pass review):** the value isn't "the workflow gets turned on" — a founder could technically flip that switch alone. The value is that it's tested safely, against an agreed set of real and edge-case scenarios, before it ever touches the live customer queue. Simone's research specifically flagged that e-commerce brands are unusually exposed to public backlash if an AI support automation mishandles a customer interaction — a single bad autonomous response posted publicly can cost far more in reputation than the price of this engagement. Tier 0's price is justified as risk removal, not convenience: the client is paying to not be the one finding out, in front of a customer, what their AI doesn't know how to handle.
 
 ### 13.6 What can be demonstrated before having any clients
 
