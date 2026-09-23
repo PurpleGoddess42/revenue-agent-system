@@ -2,6 +2,8 @@
 
 **Scope:** sized for a solo operator with zero list, zero CRM, zero clients, closing exactly ONE Founding Client ($2,500-$4,000, order-status/tracking only, phased payment). Grounded in `02-offer-strategy.md` (Camille, Sections 12-13), `03-content-strategy.md` (Naomi), and the demo already built at `demo/`.
 
+**Status:** Approved, with second-pass revisions applied per `06-strategic-review.md` — Section 9 (outbound prospecting) is new; Sections 2-4, 7 have targeted additions (marked "added on second-pass review"). Everything else is unchanged from the original approved version.
+
 ## 0. Assumption check (per the working standard — done before designing anything)
 
 Naming every piece of infrastructure a normal funnel would silently assume, and the free/simple version to use instead:
@@ -33,6 +35,8 @@ Builds on Naomi's CTA exactly as written, not replacing it:
 - **Newsletter/email:** CTA is the closing line — "hit reply." Sent directly to warm-network prospects.
 - **What happens the moment either fires:** a LinkedIn comment of "STACK" or a DM gets Script A below; a newsletter reply gets Script B. Both happen within the same business day if possible — for low-volume warm outreach, speed of first reply is one of the only free conversion levers available.
 
+**This is only half the system.** Content-driven inbound (above) runs in parallel with active outbound prospecting (Section 9, added on second-pass review) — the plan does not rely on organic reach or an assumed warm network to generate the first contact.
+
 ## 3. Word-for-word CTA / DM scripts
 
 *("Qualifying" just means asking a couple of quick questions to confirm fit before spending time on a full walkthrough — a time-saver, not a sales tactic.)*
@@ -43,13 +47,13 @@ Builds on Naomi's CTA exactly as written, not replacing it:
 >
 > Two quick questions so I don't waste your time: are you running Shopify + Gorgias or Zendesk right now, and roughly how many support tickets is your team handling in a normal week?
 >
-> If it sounds like a fit, I can send you the demo link right now, or hop on a quick 10-minute call this week and walk you through it live — whichever's easier for you.
+> If it sounds like a fit, I can send you the demo link right now, or hop on a quick 10-minute call this week and walk you through it live — whichever's easier for you. One thing to be upfront about: this is a working prototype I built to show you exactly how this would run inside your stack — not a live client system yet.
 
 ### (b) Reply to a newsletter reply
 
 > Hey [Name] — glad it was useful. Quick check first: are you on Shopify with Gorgias or Zendesk for support, and roughly what's your ticket volume like in a normal week?
 >
-> If that lines up, here's the honest version: I don't have client logos to show yet, but I do have a working sandbox demo you can watch in about 2 minutes — [demo link] — it shows the system resolving a normal ticket correctly, then correctly handing a harder one to a person instead of guessing at it.
+> If that lines up, here's the honest version: I don't have client logos to show yet, but I do have a working sandbox demo you can watch in about 2 minutes — [demo link]. Quick disclosure: this is a working prototype I built myself, not a live system already running for a client — it shows exactly how the real thing would work once it's built inside your actual helpdesk. It shows the system resolving a normal ticket correctly, then correctly handing a harder one to a person instead of guessing at it.
 >
 > Take a look and let me know what you think. If it looks like a fit, happy to jump on a quick call and figure out whether this is worth doing for your store.
 
@@ -63,6 +67,12 @@ If any answer disqualifies them (no Shopify/Gorgias/Zendesk, a procurement proce
 
 > "Appreciate you asking — honestly, this specific build is scoped for brands running Shopify + Gorgias/Zendesk where you can make the call yourself, so it might not be the right fit as-is. Happy to stay in touch in case that changes."
 
+### (d) Live screen-share disclosure (added on second-pass review)
+
+Spoken before clicking into the demo on a live call — no prior scripted opening existed for this path:
+
+> "Before I click through this — just so it's clear, this is a working prototype I built to demonstrate exactly how the real system would behave. It's not connected to a live client or your actual store. Once you're a client, this same logic gets built directly inside your real Gorgias/Zendesk and Shopify."
+
 ## 4. Landing/conversion page concept
 
 **No dedicated public landing page is needed at this stage — building one would be over-building.** A landing page exists to convert anonymous traffic from an ad or broad content funnel; every prospect here arrives through a 1:1 comment, DM, or personal reply from someone who already read the actual post/newsletter. A generic landing page would be a *downgrade* from the personal conversation already happening.
@@ -72,7 +82,7 @@ If any answer disqualifies them (no Shopify/Gorgias/Zendesk, a procurement proce
 1. **Header:** "[Operator/Company Name] — Founding Client Build: Order Status & Tracking Automation"
 2. **What's included:** the Tier-0 scope from Camille 13.4/13.9 — one intent category, built inside their existing Gorgias/Zendesk, tested, escalation rules, handover docs, one training walkthrough.
 3. **What's not included:** stated plainly (per Camille 12.8) — no Klaviyo/cart-recovery, no additional categories, no new channels.
-4. **Timeline:** 2-3 weeks from signed agreement to live.
+4. **Timeline:** 2-3 weeks from signed agreement to live. *(Added on second-pass review)* If launch is delayed past [agreed date] due to technical scope discovered during the build, no additional payment is due until it's resolved, and we'll agree on a revised date together.
 5. **Price and payment:** $2,500-$4,000 (confirmed after ticket-volume/complexity is seen), 50% kickoff / 50% at successful launch.
 6. **What we need from you:** the limited access list from Camille 13.8 (read access to order/ticket data, macro/automation edit access — explicitly NOT full store-admin, financial, or unrelated-department access).
 7. **The exchange:** permission to use real before/after numbers and a testimonial as the first case study, name used if comfortable, anonymized if not.
@@ -112,7 +122,8 @@ This mirrors Naomi's approved transition line (her Section 11), adapted from "po
 
 | Stage | What happens | What changes in the prospect's belief/readiness |
 |---|---|---|
-| 1. Content | Sees LinkedIn post or receives newsletter | Recognizes their own situation — moves from unaware to "someone finally named my actual problem." |
+| **0. Outbound identification & contact** *(added on second-pass review — runs in parallel with Stage 1, not after it)* | Operator researches and personally contacts a specific, verified-fit prospect per Section 9 | Moves from "never heard of the operator" to "a real person reached out with something specific and true about my business" — this is the actual first-contact engine; Stage 1 (content) is credibility support a prospect can check, not the primary source of contact at this stage. |
+| 1. Content | Sees LinkedIn post or receives newsletter (either organically, or because outbound contact prompted them to check the operator's profile) | Recognizes their own situation — moves from unaware to "someone finally named my actual problem," or reinforces trust in the person who just reached out. |
 | 2. CTA fires | Comments "STACK," DMs, or replies | Moves from passive reading to active curiosity — low-commitment first action. |
 | 3. First reply + qualifying (Section 3) | Operator replies same-day, asks 2-3 questions | Confirms a real person responded fast and personally — trust before any ask. |
 | 4. Demo walkthrough | Watches the sandbox demo resolve correctly and escalate correctly | Moves from "does this even work" to "I've seen it work" — the single biggest belief shift, since no other proof exists. |
@@ -138,6 +149,69 @@ Two things are legitimate to offer this client after a successful launch — not
 
 **For the business overall:** the real "next paid step" is Clients #2-3 at $4,000-$6,000 (Camille 13.13) — a different prospect, not an upsell path for Client #1.
 
+## 9. Outbound prospecting process (added on second-pass review — runs in parallel with the content, not after it)
+
+**Plain-English framing:** this is a manual, repeatable checklist the operator runs by hand — not software, not automation, not a purchased list. Content (the LinkedIn post/newsletter) builds credibility a prospect can check once contacted; it is not the mechanism that generates the first contact. Outbound is. Both run at the same time, starting now, not sequentially. This directly addresses the strategic review's highest-priority finding: the plan cannot depend on organic reach or an assumed warm network.
+
+### 9.1 Identifying appropriate DTC/e-commerce brands (all free/manual; paid tools flagged as optional upgrades only)
+
+Check these signals, in this order, for any candidate brand:
+
+- **Shopify:** visit the storefront as an ordinary shopper. View page source (right-click → "View Page Source" in any browser) and search for "cdn.shopify.com" — if present, it's Shopify. Faster alternative: BuiltWith.com has a free single-domain lookup (type the URL, see the tech stack) — the free tier, not the paid bulk/API product.
+- **Gorgias or Zendesk:** look for a chat widget bubble on the storefront; check the brand's public job postings (LinkedIn Jobs, Indeed, or their own careers page) for a support-role listing mentioning "Gorgias" or "Zendesk" by name — a common, reliable signal, since companies list the exact tools a new hire needs to know.
+- **Klaviyo:** sign up for the brand's own email newsletter/signup form (a normal, public action) and check the footer of the confirmation or marketing email for "Powered by Klaviyo" or a klaviyo.com unsubscribe link.
+- **Revenue-range signal ($1-5M proxy — imprecise, flagged as such):** LinkedIn company page's self-reported employee count (roughly 10-60 employees is a loose proxy at this revenue band, not a confirmed figure), any funding/press mentions, and general storefront maturity (product catalog size, review counts).
+- **Optional paid upgrades (not required at this volume):** LinkedIn Sales Navigator, BuiltWith's paid bulk lookup, SimilarWeb's paid traffic-estimate tier. None are needed to execute this manually for a handful of prospects a week.
+
+### 9.2 Identifying the right decision-maker
+
+- The brand's own website "About"/"Team" page (most DTC brands feature the founder by name and photo).
+- The company's LinkedIn page → "People" tab, filtered by title: Founder, Co-Founder, CEO, Head of Customer Experience, Director of Operations, Head of CX.
+- Press mentions ("Meet the founder of [Brand]" articles, local business press, podcast guest appearances) — also useful for finding a specific true detail to reference in outreach (Section 9.5).
+
+### 9.3 Pre-contact qualifying signals (checked before reaching out, in addition to the 3 existing qualifying questions in Section 3c)
+
+Favor brands that show:
+- Storefront live for over a year (copyright year in the footer, or the free Wayback Machine archive at web.archive.org for its earliest snapshot) — a proxy for "established, not brand-new."
+- Active, real job postings in the last few months (signals actual ongoing operations).
+- No obvious enterprise-scale signals working against fit: a "VP of Customer Experience" posting, a dedicated in-house automation/data team, or a formal RFP/vendor-management process — any of these suggest the brand has outgrown the founder-can-say-yes-alone profile this offer needs (Camille 13.2).
+
+These are pre-contact filters only — the three qualifying questions already in Section 3c remain the actual confirmation step once contact is made; nothing about that step changes.
+
+### 9.4 Legitimate public information only — explicit boundaries
+
+Everything above uses only: visiting a public storefront as an ordinary visitor, viewing public page source, using a public free single-lookup tool, browsing public LinkedIn profiles and company pages, reading public job postings and press, and signing up for a public newsletter with a real email address. **Explicitly ruled out:** scraping data in violation of a platform's terms of service, bulk-scraping LinkedIn (against its terms even for public profiles), pretexting (posing as a customer, journalist, or job applicant to extract information under false pretenses), misrepresenting who's reaching out or why, or bypassing any login/paywall/access control. This is a hard line, consistent with the brief's no-deception constraint.
+
+### 9.5 Personalized outreach — adapted from the existing first-reply script
+
+**LinkedIn connection request note** (short, references something specific and *true*, found via 9.1-9.2, never invented):
+
+> "Hi [Name] — saw [Brand]'s [specific true detail — recent product launch, a press mention, something visible on the site]. I work on AI-powered support automation for Shopify DTC brands around your size. Would love to connect."
+
+**First message, once connected (or as a LinkedIn InMail if not connecting first):**
+
+> "Hey [Name] — congrats on [the same specific true detail]. Quick reason I reached out: [Brand]'s support/chat setup looked like [Gorgias/Zendesk, if confirmed — otherwise skip this clause]. I build a system that automatically resolves common tickets like order-status/tracking right inside the helpdesk a brand already uses, and hands anything it's unsure about straight to a person instead of guessing. I put together a 2-minute demo showing exactly how it works — happy to send the link if that's useful, no pitch attached."
+
+If the specific tool couldn't be confirmed publicly, drop that clause and ask directly once they respond — never guess or assert a tool that wasn't actually verified.
+
+Once they reply, this flows straight into the existing qualifying questions (Section 3c) and demo/offer flow (Sections 3, 6) unchanged — outbound only changes how the first contact happens, not anything downstream.
+
+### 9.6 Inviting qualified prospects to the demo and business conversation
+
+No new step needed — an outbound reply that passes the qualifying questions flows directly into the same demo-link-or-live-walkthrough flow and offer transition already defined in Sections 3 and 6. Outbound and inbound converge at this point into one identical process.
+
+### 9.7 Tracking — extending the existing Google Sheet tracker
+
+Add a **Source** column (Outbound / Inbound-Comment / Inbound-DM / Inbound-Newsletter-Reply) and a **Pipeline Stage** column with these stages, updated manually as each prospect moves:
+
+`Identified → Contacted → Replied → Qualified → Demo Shown → Proposal Sent → Signed / Declined-or-Cold`
+
+Every prospect, whether from a LinkedIn comment or cold outbound, is tracked identically from "Replied" onward — the systems fully converge; only the first two stages differ by source.
+
+### 9.8 Realistic weekly volume (honest, manual, not a volume engine)
+
+For one solo operator doing this by hand, a realistic pace is **roughly 15-20 new prospects researched and contacted per week**, alongside the operator's other work. This is not a scaled outbound engine; it's enough volume to build a small, real pipeline toward one Founding Client, consistent with a first-client timeline of roughly 4-6 weeks. If reply/qualification rates run low, the fix is more weeks of this same manual process, not more automation — automating outbound at this stage would reintroduce exactly the impersonal, generic-template risk this process is designed to avoid.
+
 ## What was NOT changed
 
-Offer scope, pricing, phased-payment structure, the offer name, and Naomi's exact CTA/transition lines are taken as given and reused, not altered. No paid tool, list, CRM, or automation platform was assumed to exist — every infrastructure dependency (payment link, hosting, tracker, agreement) is named explicitly in Section 0 with its free/simple version.
+Offer scope, pricing, phased-payment structure, the offer name, and Naomi's exact CTA/transition lines are taken as given and reused, not altered. No paid tool, list, CRM, or automation platform was assumed to exist — every infrastructure dependency (payment link, hosting, tracker, agreement) is named explicitly in Section 0 with its free/simple version, and Section 9's prospecting tools follow the same standard.

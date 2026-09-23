@@ -4,10 +4,11 @@
 
 **Source inputs used:** `01-market-signal-research.md` (Simone), `02-offer-strategy.md` Sections 1-13 (Camille, operator-approved), `business-brief.md` (platform resolution), `runbooks/working-standard.md`.
 
-## Two pre-conditions flagged up front (operator action items, not something content can write around)
+**Status:** Approved, with two second-pass content fixes applied per `06-strategic-review.md` (the risk-removal addition to "THE MECHANISM" beat, and the new "THE TIMING" beat) — see the "added on second-pass review" markers below. The sandbox demo is now built and tested (`demo/index.html`), so the "watch it work" lines are accurate to use as written.
 
-1. **The sandbox demo doesn't exist yet** (Camille Section 12.10/13.6 — fictional Shopify store, mocked/trial helpdesk, trial Klaviyo, showing a correct resolution, a correct escalation, one recovered-cart example). Several lines below reference "watch it work first" — only honest to publish once the demo is actually built and runs reliably. Until then, use the flagged alternative line instead.
-2. **No operator/company name was in the brief** — all copy below is written in first-person ("I") without inventing a business name or logo. Insert the operator's actual name/company name before posting — do not let a placeholder or a fabricated name ship.
+## One pre-condition still open (operator action item, not something content can write around)
+
+**No operator/company name was in the brief** — all copy below is written in first-person ("I") without inventing a business name or logo. Insert the operator's actual name/company name before posting — do not let a placeholder or a fabricated name ship.
 
 **Plain-English framing (per the working standard):** What this is — ready-to-post LinkedIn copy plus a newsletter adaptation, built to attract a first Founding Client ($1M-$5M founder-led DTC brand) using honest industry math instead of results that don't exist yet. Why LinkedIn — this buyer researches vendors on LinkedIn, not by watching video, so the primary platform is text/graphic, not film. What it's used for — post the LinkedIn piece and send the newsletter version directly to warm-network prospects during outreach. What the operator needs to do — insert their name, build the sandbox demo before promising it, and personally handle any resulting DMs/calls (Camille Section 12.6 reserves all relationship-building for the human). What was assumed — no existing LinkedIn following, no content history, no demo yet — flagged throughout.
 
@@ -81,12 +82,15 @@ Visual: styled like a handwritten calculation on an index card/notepad (a flat-d
 >
 > Integrate what you have. Don't replace it.
 
+> **(Added on second-pass review)** And yes — you could technically flip that switch yourself. That's not actually the value here. The value is that it gets tested against a real set of normal questions and the weird edge cases first, in a sandbox, before it ever answers a live customer. If it's going to get something wrong, it gets it wrong in testing — not in front of someone who just spent money with you. You're not paying for the workflow to exist. You're paying to not be the one finding that out live.
+
+**[THE TIMING — 2 lines, ~55 words — added on second-pass review]**
+> Black Friday and Cyber Monday are about 9 weeks out. That's also the week "where is my order" tickets spike hardest all year — more orders in transit, more shipping delays, more customers checking in before a shipping confirmation even lands. If that's already the ticket type piling up on a normal Tuesday, this is the one worth having solved before volume triples — not while it's happening.
+
 **[HONEST FOUNDING-CLIENT PIVOT — 3 lines, ~70 words]**
 > I'm building exactly this. I'm not going to pretend I have a shelf of client logos to show you — I don't, yet. What I can show you is the math above, and a working system before you commit anything.
 >
-> **[Use once the sandbox demo actually exists and runs reliably:]** I built a sandbox version of this — a fake store, real order data, a live conversation — so you can watch it resolve a normal ticket correctly, then watch it correctly hand off a harder one to a person instead of guessing at it.
->
-> **[Use until the demo is built:]** I'm building the working demo for this right now — a sandbox order-status conversation that resolves correctly, and a harder case that gets handed to a human instead of guessed at, so you can see it work before anyone commits to anything.
+> I built a sandbox version of this — a fake store, real order data, a live conversation — so you can watch it resolve a normal ticket correctly, then watch it correctly hand off a harder one to a person instead of guessing at it. *(The demo is now built and tested — see `demo/index.html` — so this line is accurate to use as-is; the "not yet built" fallback that was previously here is no longer needed.)*
 
 **[TRANSITION TO OFFER — see Section 11]**
 
@@ -166,8 +170,8 @@ Per the brief, YouTube is explicitly a later-stage channel "once there's more to
 
 ## Summary of flags for the coordinator/operator
 
-1. Do not publish the "watch the sandbox demo" line until the demo (Camille Section 12.10/13.6) is actually built and reliably running — the exact bracketed swap is marked in Sections 6 and 11.
-2. Insert the operator's real name/company name before posting — none was provided in the brief, so all copy is written in unattributed first-person.
+1. ~~Do not publish the "watch the sandbox demo" line until the demo is built~~ — **resolved:** the demo is now built and tested (`demo/index.html`), so this line is accurate to publish as written.
+2. Insert the operator's real name/company name before posting — none was provided in the brief, so all copy is written in unattributed first-person. **Still open.**
 3. This content deliberately scopes the offer pivot to order-status/tracking only (the approved Founding Client scope) — do not let future edits expand the CTA to imply cart-recovery/Klaviyo work is included in the first engagement.
 4. All "credibility" in this content comes from public industry math and honest new-provider transparency — zero client results, testimonials, or logos were used or implied, consistent with the brief's no-fake-testimonial constraint and Camille's explicit instruction not to invent them.
 5. DM/comment follow-up scripting, qualifying questions, and the actual booking/close sequence after someone responds to this content are intentionally out of scope here — that belongs to Victoria (Conversion System Builder), next in the pipeline.
