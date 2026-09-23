@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!--
+  DEMO — Option A (scripted), built per outputs/ai-b2b-leverage-v1/demo-build-plan.md
+  Every name, order, and message on this page is FICTIONAL, written for this demo only.
+  Nothing here is connected to Shopify, Gorgias, Zendesk, Klaviyo, or any real store or AI API.
+  Replace "[Your Company Name]" below with the real business name before showing this to anyone.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Support Assistant — Demo</title>
+<style>
+  :root {
+    --ink: #1a1d23;
+    --sub: #5b6270;
+    --line: #e4e6ea;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --accent: #2f6f4f;
+    --accent-soft: #e8f3ec;
+    --warn: #b3521c;
+    --warn-soft: #fbeee3;
+    --bubble-customer: #eef1f5;
+    --bubble-ai: #e8f3ec;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+
+  header.page-header { text-align: center; margin-bottom: 8px; }
+  header.page-header h1 { font-size: 22px; margin: 0 0 6px; }
+  .label-demo {
+    display: inline-block;
+    background: var(--warn-soft);
+    color: var(--warn);
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+    letter-spacing: 0.02em;
+  }
+  p.sub { color: var(--sub); font-size: 14.5px; max-width: 520px; margin: 0 auto 28px; text-align: center; }
+
+  nav.steps {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav.steps button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--ink);
+    padding: 9px 14px;
+    border-radius: 999px;
+    font-size: 13.5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  nav.steps button.active { background: var(--ink); color: white; border-color: var(--ink); }
+  nav.steps button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+  section.scene {
+    display: none;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px 22px 26px;
+  }
+  section.scene.active { display: block; }
+
+  .scene-title { font-size: 15px; font-weight: 700; margin: 0 0 2px; }
+  .scene-desc { font-size: 13.5px; color: var(--sub); margin: 0 0 18px; }
+
+  .chat { display: flex; flex-direction: column; gap: 10px; min-height: 60px; }
+  .bubble {
+    max-width: 82%;
+    padding: 11px 14px;
+    border-radius: 14px;
+    font-size: 14.5px;
+    opacity: 0;
+    transform: translateY(6px);
+    animation: rise 0.35s ease forwards;
+  }
+  @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+  .bubble.customer { align-self: flex-start; background: var(--bubble-customer); border-bottom-left-radius: 4px; }
+  .bubble.ai { align-self: flex-end; background: var(--bubble-ai); border-bottom-right-radius: 4px; }
+  .bubble .who { display:block; font-size: 11px; font-weight: 700; color: var(--sub); margin-bottom: 3px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .tag {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 5px 11px;
+    border-radius: 999px;
+  }
+  .tag.resolved { background: var(--accent-soft); color: var(--accent); }
+  .tag.escalated { background: var(--warn-soft); color: var(--warn); }
+
+  .handoff-card {
+    margin-top: 16px;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--warn);
+    border-radius: 10px;
+    padding: 14px 16px;
+    background: #fffaf6;
+    font-size: 13.5px;
+    opacity: 0;
+    animation: rise 0.4s ease forwards;
+  }
+  .handoff-card h4 { margin: 0 0 8px; font-size: 13px; color: var(--warn); }
+  .handoff-card dl { margin: 0; display: grid; grid-template-columns: 120px 1fr; row-gap: 6px; }
+  .handoff-card dt { color: var(--sub); font-weight: 600; }
+  .handoff-card dd { margin: 0; }
+
+  .cart-card {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    font-size: 13.5px;
+  }
+  .cart-card .cart-line { display: flex; justify-content: space-between; padding: 4px 0; }
+  .cart-card .cart-total { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 8px; font-weight: 700; display:flex; justify-content: space-between; }
+  .cart-status { color: var(--sub); font-size: 12.5px; margin-top: 8px; }
+
+  .recovery-msg {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    background: var(--accent-soft);
+    font-size: 13.5px;
+    opacity: 0;
+    animation: rise 0.4s ease forwards;
+  }
+  .recovery-msg .subject { font-weight: 700; margin-bottom: 6px; }
+  .recovery-msg .meta { color: var(--sub); font-size: 12px; margin-bottom: 10px; }
+
+  .play-btn {
+    margin-top: 4px;
+    background: var(--ink);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .play-btn:disabled { opacity: 0.4; cursor: default; }
+
+  .nav-row { display: flex; justify-content: space-between; margin-top: 22px; }
+  .nav-row button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .nav-row button:disabled { opacity: 0.3; cursor: default; }
+
+  footer.recap {
+    display: none;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 24px 22px;
+    text-align: center;
+  }
+  footer.recap.active { display: block; }
+  footer.recap h2 { font-size: 17px; margin: 0 0 8px; }
+  footer.recap p { color: var(--sub); font-size: 14px; max-width: 480px; margin: 0 auto 16px; }
+  footer.recap .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .fine-print { text-align: center; color: var(--sub); font-size: 11.5px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page-header">
+    <span class="label-demo">DEMO — fictional data only, for demonstration</span>
+    <h1>[Your Company Name] — AI Support Assistant</h1>
+  </header>
+  <p class="sub">
+    This is a sandbox demonstration. Every customer, order, and message below is made up
+    to show how this would work — it is not connected to any real store or live customer data.
+  </p>
+
+  <nav class="steps">
+    <button id="nav-1" class="active" onclick="goTo(1)">1. Order Status</button>
+    <button id="nav-2" onclick="goTo(2)">2. Escalation</button>
+    <button id="nav-3" onclick="goTo(3)">3. Cart Recovery</button>
+  </nav>
+
+  <!-- SCENE 1: correct autonomous resolution -->
+  <section class="scene active" id="scene-1">
+    <p class="scene-title">Scenario 1 — A simple request, handled correctly</p>
+    <p class="scene-desc">Fictional customer "Marcus R.", fictional order #10482.</p>
+    <div class="chat" id="chat-1"></div>
+    <button class="play-btn" id="play-1" onclick="playScene(1)">▶ Play scenario</button>
+    <div class="nav-row">
+      <button disabled>Back</button>
+      <button id="next-1" onclick="goTo(2)" disabled>Next: Escalation →</button>
+    </div>
+  </section>
+
+  <!-- SCENE 2: correct escalation with context -->
+  <section class="scene" id="scene-2">
+    <p class="scene-title">Scenario 2 — A harder request, correctly escalated</p>
+    <p class="scene-desc">Fictional customer "Priya D.", fictional order #10391 (third reported issue).</p>
+    <div class="chat" id="chat-2"></div>
+    <button class="play-btn" id="play-2" onclick="playScene(2)">▶ Play scenario</button>
+    <div class="nav-row">
+      <button onclick="goTo(1)">← Back</button>
+      <button id="next-2" onclick="goTo(3)" disabled>Next: Cart Recovery →</button>
+    </div>
+  </section>
+
+  <!-- SCENE 3: cart abandonment recovery -->
+  <section class="scene" id="scene-3">
+    <p class="scene-title">Scenario 3 — An abandoned cart, recovered automatically</p>
+    <p class="scene-desc">Fictional customer "Sarah T." — checkout started, not completed.</p>
+
+    <div class="cart-card">
+      <strong>Cart — abandoned 47 minutes ago</strong>
+      <div class="cart-line"><span>Everyday Tote Bag</span><span>$68.00</span></div>
+      <div class="cart-line"><span>Travel Pouch (Sand)</span><span>$24.00</span></div>
+      <div class="cart-total"><span>Subtotal</span><span>$92.00</span></div>
+      <div class="cart-status">Status: checkout started, not completed</div>
+    </div>
+
+    <div id="recovery-1" style="display:none;"></div>
+    <button class="play-btn" id="play-3" onclick="playScene(3)">▶ Play scenario</button>
+    <div class="nav-row">
+      <button onclick="goTo(2)">← Back</button>
+      <button id="next-3" onclick="showRecap()" disabled>See summary →</button>
+    </div>
+  </section>
+
+  <footer class="recap" id="recap">
+    <h2>This runs automatically, every time — while your team focuses on everything else.</h2>
+    <p>
+      [Your Company Name] builds and manages this kind of system inside the tools you
+      already use — no new platform to learn, no replacing what's already working.
+    </p>
+    <p style="font-size:13px;">
+      I'm taking on one Founding Client to build exactly this — the order-status and
+      tracking workflow, live inside your existing helpdesk in 2-3 weeks. $2,500-$4,000,
+      half at kickoff and half at launch.
+    </p>
+    <a class="cta" href="#">Let's talk about your setup</a>
+    <div class="nav-row" style="max-width:300px;margin:20px auto 0;">
+      <button onclick="restart()">↺ Restart demo</button>
+    </div>
+  </footer>
+
+  <p class="fine-print">
+    Demo build v1 — scripted (Option A), $0 cost, no external accounts or APIs used.
+    See demo-build-plan.md and README.md for details.
+  </p>
+
+</div>
+
+<script>
+/*
+  ============================================================
+  FICTIONAL DATA — everything below is invented for this demo.
+  No real customers, orders, or businesses are represented.
+  ============================================================
+*/
+const SCRIPTS = {
+  1: [
+    { who: 'customer', name: 'Marcus R.', text: "Hi — can you tell me where order #10482 is? It's been a few days." },
+    { who: 'ai', name: 'AI Assistant', text: "Hi Marcus! I checked order #10482 — it shipped on Sept 19 via USPS and is currently in transit. Estimated delivery: Sept 24. Tracking: 9400 1000 0000 0000 0000 00." },
+    { who: 'ai', name: 'AI Assistant', text: "Let me know if there's anything else I can help with!" }
+  ],
+  2: [
+    { who: 'customer', name: 'Priya D.', text: "This is the THIRD time my order has arrived damaged. I want a full refund right now or I'm disputing the charge with my bank." },
+    { who: 'ai', name: 'AI Assistant', text: "I'm really sorry, Priya — a repeat issue like this deserves more than an automated reply. I'm connecting you with a member of our team right now, and they'll already have your full order history in front of them so you won't have to repeat any of this." }
+  ],
+  3: [] // handled separately below
+};
+
+let currentScene = 1;
+
+function goTo(n) {
+  document.querySelectorAll('.scene').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav.steps button').forEach(b => b.classList.remove('active'));
+  document.getElementById('scene-' + n).classList.add('active');
+  document.getElementById('nav-' + n).classList.add('active');
+  document.getElementById('recap').classList.remove('active');
+  currentScene = n;
+}
+
+function bubbleEl(msg) {
+  const div = document.createElement('div');
+  div.className = 'bubble ' + msg.who;
+  div.innerHTML = '<span class="who">' + msg.name + '</span>' + msg.text;
+  return div;
+}
+
+function playScene(n) {
+  document.getElementById('play-' + n).disabled = true;
+
+  if (n === 1 || n === 2) {
+    const chat = document.getElementById('chat-' + n);
+    chat.innerHTML = '';
+    const msgs = SCRIPTS[n];
+    msgs.forEach((msg, i) => {
+      setTimeout(() => {
+        chat.appendChild(bubbleEl(msg));
+        if (i === msgs.length - 1) {
+          setTimeout(() => afterScene(n), 500);
+        }
+      }, i * 900);
+    });
+  }
+
+  if (n === 3) {
+    playCartRecovery();
+  }
+}
+
+function afterScene(n) {
+  if (n === 1) {
+    const chat = document.getElementById('chat-1');
+    const tag = document.createElement('div');
+    tag.className = 'tag resolved';
+    tag.textContent = '✓ Resolved automatically — no human needed';
+    chat.appendChild(tag);
+    document.getElementById('next-1').disabled = false;
+  }
+  if (n === 2) {
+    const chat = document.getElementById('chat-2');
+    const tag = document.createElement('div');
+    tag.className = 'tag escalated';
+    tag.textContent = '→ Escalated to a human — not resolved automatically';
+    chat.appendChild(tag);
+
+    const card = document.createElement('div');
+    card.className = 'handoff-card';
+    card.innerHTML = `
+      <h4>Handed off to: Support Team (priority)</h4>
+      <dl>
+        <dt>Customer</dt><dd>Priya D. — Order #10391</dd>
+        <dt>Reason flagged</dt><dd>Repeat complaint (3rd contact), refund request $210 exceeds $150 auto-approval limit</dd>
+        <dt>Sentiment</dt><dd>Negative, escalation risk (chargeback mentioned)</dd>
+        <dt>Order history</dt><dd>3 orders total, 2 prior support contacts</dd>
+        <dt>Suggested next step</dt><dd>Priority refund review + shipping carrier follow-up</dd>
+      </dl>`;
+    chat.appendChild(card);
+    document.getElementById('next-2').disabled = false;
+  }
+}
+
+function playCartRecovery() {
+  const box = document.getElementById('recovery-1');
+  box.style.display = 'block';
+  box.innerHTML = '';
+  setTimeout(() => {
+    box.innerHTML = `
+      <div class="recovery-msg">
+        <div class="meta">Automated follow-up — sent 60 minutes after checkout was abandoned</div>
+        <div class="subject">Subject: You left something behind, Sarah 👜</div>
+        <div>Your Everyday Tote Bag is still waiting for you. Complete your order in the next 24 hours and save 10% with code <strong>COMEBACK10</strong>. Need help deciding? Just reply to this email.</div>
+      </div>`;
+    document.getElementById('next-3').disabled = false;
+  }, 500);
+}
+
+function showRecap() {
+  document.querySelectorAll('.scene').forEach(s => s.classList.remove('active'));
+  document.getElementById('recap').classList.add('active');
+}
+
+function restart() {
+  document.getElementById('chat-1').innerHTML = '';
+  document.getElementById('chat-2').innerHTML = '';
+  document.getElementById('recovery-1').innerHTML = '';
+  document.getElementById('recovery-1').style.display = 'none';
+  ['1','2','3'].forEach(n => {
+    document.getElementById('play-' + n).disabled = false;
+    document.getElementById('next-' + n).disabled = true;
+  });
+  document.getElementById('recap').classList.remove('active');
+  goTo(1);
+}
+</script>
+</body>
+</html>
