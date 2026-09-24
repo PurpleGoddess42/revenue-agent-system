@@ -3,7 +3,7 @@
   DEMO — Option A (scripted), built per outputs/ai-b2b-leverage-v1/demo-build-plan.md
   Every name, order, and message on this page is FICTIONAL, written for this demo only.
   Nothing here is connected to Shopify, Gorgias, Zendesk, Klaviyo, or any real store or AI API.
-  Replace "[Your Company Name]" below with the real business name before showing this to anyone.
+  Branded for DHJ Consultant LLC.
 -->
 <html lang="en">
 <head>
@@ -37,6 +37,25 @@
 
   header.page-header { text-align: center; margin-bottom: 8px; }
   header.page-header h1 { font-size: 22px; margin: 0 0 6px; }
+  .brand-logo-wrap {
+    display: inline-block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 12px 20px;
+    margin-bottom: 14px;
+  }
+  .brand-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 480px) {
+    .brand-logo { max-width: 130px; }
+    .brand-logo-wrap { padding: 10px 16px; }
+  }
   .label-demo {
     display: inline-block;
     background: var(--warn-soft);
@@ -200,6 +219,9 @@
 <div class="wrap">
 
   <header class="page-header">
+    <div class="brand-logo-wrap">
+      <img class="brand-logo" src="assets/dhj-consultant-logo.png" alt="DHJ Consultant LLC">
+    </div>
     <span class="label-demo">DEMO — fictional data only, for demonstration</span>
     <h1>DHJ Consultant LLC — AI Support Assistant</h1>
   </header>

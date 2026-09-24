@@ -27,9 +27,10 @@ recording or presenting live, rather than dumping a wall of text at once.
 
 ## Before you show this to anyone
 
-- **Replace `[Your Company Name]`** — it appears twice in `index.html` (the
-  page header and the recap section). Use Find & Replace for
-  `[Your Company Name]` once you've settled on a name.
+- **Branding is done.** `index.html` is branded for DHJ Consultant LLC (page
+  header, recap section, and logo). If this demo is ever reused for a
+  different company, replace the "DHJ Consultant LLC" text and swap
+  `assets/dhj-consultant-logo.png` for the new logo.
 - **Everything else is intentionally fictional** — the customers (Marcus R.,
   Priya D., Sarah T.), order numbers, dollar amounts, and messages were all
   invented for this demo. Do not swap in any real customer's information.
