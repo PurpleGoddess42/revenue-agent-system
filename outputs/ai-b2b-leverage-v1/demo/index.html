@@ -10,6 +10,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Support Assistant — Demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #1a1d23;
@@ -36,7 +39,19 @@
   .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
 
   header.page-header { text-align: center; margin-bottom: 8px; }
-  header.page-header h1 { font-size: 22px; margin: 0 0 6px; }
+  header.page-header h1 {
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 2px;
+  }
+  header.page-header .header-subtitle {
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--sub);
+    margin: 0 0 6px;
+  }
   .label-demo {
     display: inline-block;
     background: var(--warn-soft);
@@ -201,7 +216,8 @@
 
   <header class="page-header">
     <span class="label-demo">DEMO — fictional data only, for demonstration</span>
-    <h1>DHJ Consultant LLC — AI Support Assistant</h1>
+    <h1>DHJ Consultant LLC</h1>
+    <p class="header-subtitle">AI Support Assistant</p>
   </header>
   <p class="sub">
     This is a sandbox demonstration. Every customer, order, and message below is made up
