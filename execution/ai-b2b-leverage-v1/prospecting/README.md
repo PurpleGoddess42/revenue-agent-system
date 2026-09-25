@@ -101,12 +101,15 @@ Every prospect moves through these stages, tracked in the `Stage` column of the 
 | **RESEARCHED** | All the qualification fields (Section 2) have been filled in. |
 | **QUALIFIED** | A priority label (HIGH PRIORITY / POSSIBLE / NOT A FIT) has been assigned. |
 | **OUTREACH READY** | A personalized draft message exists and is ready for your review (Section 5). |
+| **NEEDS VERIFICATION / SKIPPED FOR NOW** | The prospect's identity or contact channel couldn't be confidently verified with a quick check (see rule below). Not counted as CONTACTED. |
 | **CONTACTED** | You've sent the message. |
 | **RESPONDED** | The prospect has replied. |
 | **MEETING** | A call or deeper conversation has happened (demo walkthrough, qualifying questions per `04-conversion-system.md` Section 3). |
 | **PROPOSAL** | The one-page proposal has been sent (`04-conversion-system.md` Section 4). |
 | **WON** | They signed and paid the kickoff deposit. |
 | **LOST / NOT A FIT** | They declined, went cold, or were disqualified at any stage — with a one-line reason noted. |
+
+**Speed rule (added once outreach volume ramped up toward ~100/week):** if a prospect's identity or contact channel can't be confidently verified with a quick check, don't spend excessive time investigating them. Mark the row `NEEDS VERIFICATION / SKIPPED FOR NOW`, note why in Notes / Next Action, and move immediately to the next qualified prospect. A skipped prospect is never counted as CONTACTED and can be revisited later if time allows.
 
 ## 7. AI vs. your job
 
