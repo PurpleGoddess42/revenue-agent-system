@@ -61,6 +61,12 @@ execution/
                                    see execution/README.md for how this differs from outputs/
 ```
 
+## HAUS BY HASSANAH (separate business)
+
+`haus/` holds a separate women's fashion brand with its own five-agent team
+(`.claude/agents/haus-*.md`) and a permanent, critical audience
+repositioning directive. Start at `haus/README.md`.
+
 Once a strategy is approved and you move into running the business day-to-day,
 `execution/<run-slug>/` is where that operational work lives — kept separate
 from the strategy files in `outputs/`, which stay as the historical record of
