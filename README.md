@@ -63,9 +63,12 @@ execution/
 
 ## HAUS BY HASSANAH (separate business)
 
-`haus/` holds a separate women's fashion brand with its own five-agent team
-(`.claude/agents/haus-*.md`) and a permanent, critical audience
-repositioning directive. Start at `haus/README.md`.
+`haus/` holds a **separate business**, a women's fashion brand, with its
+own six-agent team (`.claude/agents/haus-*.md`), its own operating rules,
+and a permanent, critical audience repositioning directive. Start at
+`haus/README.md`. HAUS and the Revenue Operating System above do not share
+strategy, research, prompts, or outputs, and their agents are never
+mixed.
 
 Once a strategy is approved and you move into running the business day-to-day,
 `execution/<run-slug>/` is where that operational work lives — kept separate

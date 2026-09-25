@@ -1,5 +1,9 @@
 # Working Standard — Build With Me as a Beginner Operator
 
+**Scope:** the B2B Revenue Operating System (Simone, Camille, Naomi,
+Victoria) only. HAUS BY HASSANAH is a separate business with its own rules
+in `haus/directives/operating-rules.md`, and the two must not be mixed.
+
 **Status: permanent.** This is not a one-time instruction for the current
 business or run. It applies to the coordinator and to every specialist
 agent (Simone, Camille, Naomi, Victoria) on every run of this Revenue

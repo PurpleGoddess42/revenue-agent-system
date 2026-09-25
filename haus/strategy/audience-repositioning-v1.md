@@ -83,8 +83,8 @@ Pillar G is not removed. It is the brand's heat. It just stops being the
 
 ## 3. The framing test: subject vs. object
 
-Run every visual through these checks. This is the heart of the Luxury
-Brand Director's review (scorecard in
+Run every visual through these checks. This is the heart of the HAUS Brand
+Director's review (scorecard in
 `haus/execution/content-review-scorecard.md`).
 
 | Leans OBJECT (for male viewer) | Leans SUBJECT (for female viewer) |
@@ -187,7 +187,7 @@ fixing the content itself.
 ## 6. AI models: transparency and recommendation risk
 
 Recommendation eligibility and brand strategy are separate questions, and
-the Platform Compliance Agent keeps them separate.
+the Platform Compliance & Recovery Agent keeps them separate.
 
 - **Platform policy [SOURCED]:** Instagram may show sexually suggestive
   content (including see-through clothing) to followers but make it less

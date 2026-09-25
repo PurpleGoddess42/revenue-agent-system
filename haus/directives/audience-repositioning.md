@@ -1,9 +1,10 @@
 # Directive — Audience Repositioning (Women-First)
 
-**Status: permanent, binding.** This is a standing directive for every HAUS
-agent (see `haus/README.md` for the roster) and for the coordinator driving
-them. It stays in force until the founder explicitly changes it. It sits
-alongside `runbooks/working-standard.md`, which also applies to all HAUS
+**Status: permanent, binding.** This is a standing directive for all six
+HAUS agents (see `haus/README.md` for the roster) and for the coordinator
+driving them. It stays in force until the founder explicitly changes it.
+It sits alongside `haus/directives/operating-rules.md` (founder approval
+gate, evidence rules, project separation), which also applies to all HAUS
 work.
 
 **Priority:** CRITICAL. When a HAUS recommendation conflicts with this
@@ -54,8 +55,9 @@ No agent may recommend:
   allowed and encouraged, as §6 explains. Moderating *people by gender* is
   not.)
 - **Deceptive** tactics, such as misrepresenting who made a garment,
-  presenting AI models as real women, or faking customer reviews,
-  testimonials, or demographic claims.
+  presenting AI models as real women, presenting AI imagery as proof that
+  a physical garment exists, or faking customer reviews, testimonials, or
+  demographic claims.
 - **Platform-violating** tactics, meaning anything that breaks a
   platform's terms, community guidelines, or ad policies.
 
@@ -116,15 +118,18 @@ For any engagement, every agent must ask:
 
 ## 6. Role obligations
 
-Each HAUS agent's own file restates its obligations in full. In summary:
+The permanent HAUS team has **six agents**: the Chief Strategy Agent and
+the five specialists it coordinates. Each agent's own file restates its
+obligations in full. In summary:
 
 | Role | Obligation under this directive |
 |---|---|
-| **Chief Strategy Agent** | Owns the directive. Periodically answers the **Core Question** (§8). If the answer is "no," challenges and revises the strategy. |
+| **HAUS Chief Strategy Agent** | Owns the directive and **coordinates all five specialists**. Periodically answers the **Core Question** (§8). If the answer is "no," challenges and revises the strategy. |
 | **Audience Growth & Distribution Strategist** | Evaluates engagement by WHO, WHY, customer fit, and business contribution, never by views alone. Chooses platforms, formats, and communities that reach women interested in fashion. |
 | **Content Creative Director** | Deliberately develops content centered on **the garment, the design, the woman wearing it, the HAUS story, the collection, the craft, and the fashion experience**. Keeps HAUS sensual while speaking to women. |
-| **Luxury Brand Director** | **Flags content that makes the model more important than the garment**, even unintentionally. Guards the high-fashion, Afrocentric, glamorous identity. |
-| **Platform Compliance Agent** | Separately flags presentation that may create **avoidable recommendation risk** from sexualized framing. **Always labels whether a flag is platform policy or brand strategy.** These are different things and must never be blurred. |
+| **HAUS Brand Director** | **Flags content that makes the model more important than the garment**, even unintentionally, and flags over-correction toward conservative. Guards the high-fashion, Afrocentric, glamorous identity. |
+| **Platform Compliance & Recovery Agent** | Separately flags presentation that may create **avoidable recommendation risk** from sexualized framing. **Always labels whether a flag is platform policy or brand strategy.** These are different things and must never be blurred. Owns the platform status register and restriction recovery. |
+| **Luxury Brand, Buyer & Industry Positioning Agent** | Asks of all work: **"Does this strengthen or weaken HAUS's credibility as an emerging luxury fashion house?"** Never lets AI imagery stand in for proof that a physical garment exists. |
 
 Comment moderation that hides sexualizing or harassing comments (for
 example, Instagram Hidden Words) is a legitimate, platform-provided tool.

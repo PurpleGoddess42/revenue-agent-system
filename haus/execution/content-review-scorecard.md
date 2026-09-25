@@ -1,6 +1,9 @@
 # HAUS Content Review Scorecard
 
-Every HAUS post goes through this before publishing. It applies
+Every HAUS post **and campaign** goes through this quality gate before
+anything is published. Passing the gate does not authorize publishing:
+Hassanah's explicit approval is still required
+(`haus/directives/operating-rules.md` §1). It applies
 `haus/directives/audience-repositioning.md` §3-§6 and the framing test in
 `haus/strategy/audience-repositioning-v1.md` §3.
 
@@ -25,7 +28,7 @@ Copy the block below for each post.
 
 **Total: __ / 12.** 10-12 publish · 7-9 revise · 0-6 rework.
 
-## 2. Luxury Brand Director: garment vs. model
+## 2. HAUS Brand Director: garment vs. model
 
 - [ ] Does the **model** matter more than the **garment** in this piece? **If yes → FLAG**, even when it looks unintentional.
 - [ ] Does the one-line test pass? *"Would a woman who loves fashion watch this and think about wearing it, rather than only a man thinking about her?"*
@@ -34,7 +37,7 @@ Copy the block below for each post.
 
 Flags / notes:
 
-## 3. Platform Compliance Agent: two separate columns, never merged
+## 3. Platform Compliance & Recovery Agent: two separate columns, never merged
 
 | Flag | **PLATFORM POLICY** (rule, recommendation guideline, ad policy, AI-label requirement, with the source cited) | **BRAND STRATEGY** (on-policy but conflicts with the directive) |
 |---|---|---|
@@ -43,7 +46,20 @@ Flags / notes:
 - [ ] Could sexualized framing make this **not recommended to non-followers** (Explore, Reels, search), cutting reach to new women?
 - [ ] Is AI-content labeling handled per the platform's current rules?
 
-## 4. Audience Growth & Distribution Strategist
+## 4. Luxury Brand, Buyer & Industry Positioning Agent
+
+**Review question: "Does this strengthen or weaken HAUS's credibility as an emerging luxury fashion house?"**
+
+- [ ] Strengthens · [ ] Neutral · [ ] Weakens (why, and the fix)
+- [ ] Does anything imply a physical garment exists, or is available,
+  ready, or in production, when only an AI concept exists? **If yes →
+  FLAG.**
+- [ ] Does it read as a fashion house, not an AI-fashion or social-media
+  account?
+- Actual garment stage shown: Concept · Prototype · Sample ·
+  Production-ready · Sellable
+
+## 5. Audience Growth & Distribution Strategist
 
 - Expected audience: who is this likely to reach, and why?
 - Distribution: platforms, Pinterest pin, and communities to share into
